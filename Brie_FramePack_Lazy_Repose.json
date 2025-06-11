@@ -579,7 +579,7 @@
         174
       ],
       "flags": {},
-      "order": 16,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -767,7 +767,7 @@
         78
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -895,7 +895,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "00051-1028.png",
+        "00037-1028.png",
         "image"
       ],
       "color": "#322",
@@ -1085,6 +1085,118 @@
       "bgcolor": "#533"
     },
     {
+      "id": 15,
+      "type": "ConditioningZeroOut",
+      "pos": [
+        1478.8060302734375,
+        997.7294311523438
+      ],
+      "size": [
+        355.37060546875,
+        43.86850357055664
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 118
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            231
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.28",
+        "Node name for S&R": "ConditioningZeroOut",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 121,
+      "type": "Note",
+      "pos": [
+        311.76678466796875,
+        -351.8590393066406
+      ],
+      "size": [
+        278.18072509765625,
+        88
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "Find the models on the OneFrame github: https://github.com/xhiroga/ComfyUI-FramePackWrapper_PlusOne\n\nFind the various loras here:\nhttps://huggingface.co/tori29umai/FramePack_LoRA/tree/main"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 77,
+      "type": "LoadImage",
+      "pos": [
+        301.966552734375,
+        530.9547729492188
+      ],
+      "size": [
+        615.048828125,
+        680.713134765625
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            248,
+            275
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "title": "PoseImage",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.29",
+        "Node name for S&R": "LoadImage",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "pasted/image (103).png",
+        "image"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
       "id": 107,
       "type": "FramePackSingleFrameSampler",
       "pos": [
@@ -1180,8 +1292,8 @@
         1,
         10,
         0,
-        767636577889336,
-        "randomize",
+        425689127740780,
+        "fixed",
         9,
         25,
         "unipc_bh1",
@@ -1189,94 +1301,6 @@
         1,
         5,
         10
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 15,
-      "type": "ConditioningZeroOut",
-      "pos": [
-        1478.8060302734375,
-        997.7294311523438
-      ],
-      "size": [
-        355.37060546875,
-        43.86850357055664
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 18,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "conditioning",
-          "type": "CONDITIONING",
-          "link": 118
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            231
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.28",
-        "Node name for S&R": "ConditioningZeroOut",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [],
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
-      "id": 70,
-      "type": "FramePackLoraSelect",
-      "pos": [
-        635.3445434570312,
-        57.77886962890625
-      ],
-      "size": [
-        259.5113830566406,
-        106
-      ],
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "prev_lora",
-          "shape": 7,
-          "type": "FPLORA",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "lora",
-          "type": "FPLORA",
-          "links": [
-            159
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-framepackwrapper_plusone",
-        "ver": "5300cdb786950ff44b6688481ae4b307b2d8d6f2",
-        "Node name for S&R": "FramePackLoraSelect",
-        "aux_id": "kijai/ComfyUI-FramePackWrapper",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "framepack\\photo2chara_V6_dim4.safetensors",
-        1,
-        false
       ],
       "color": "#223",
       "bgcolor": "#335"
@@ -1293,7 +1317,7 @@
         253.48672485351562
       ],
       "flags": {},
-      "order": 11,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1302,7 +1326,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "body2img_V7 - reposes char to lineeart / 3d doll pose.\nConvert reference images of poses and expressions into character design images.\n\nphoto2char_V6 - reposes char to photo pose, no bg.\nConverts photos of people into anime-style character illustrations. Not only the drawing style, but also facial features, body type, clothing, hairstyle, etc. are converted, and the background is changed to a simple white.\n\nphoto2char_V12 - repose char to photo pose, bg, no prop.\nConverts photos of people into anime-style character illustrations. Not only the drawing style, but also facial features, body type, clothing, hairstyle, etc. are converted.\n\nphoto2char_V13 - repose char to photo pose, bg\nConverts photos of people into anime-style character illustrations. Not only the drawing style, but also facial features, body type, clothing, hairstyle, etc. are converted."
+        "body2img_V7 - reposes char to lineeart / 3d doll pose.\nConvert reference images of poses and expressions into character design images.\n\nphoto2chara_V6 - reposes char to photo pose, no bg.\nConverts photos of people into anime-style character illustrations. Not only the drawing style, but also facial features, body type, clothing, hairstyle, etc. are converted, and the background is changed to a simple white.\n\nphoto2chara_V12 - repose char to photo pose, no bg, no prop.\nConverts photos of people into anime-style character illustrations. Not only the drawing style, but also facial features, body type, clothing, hairstyle, etc. are converted.\n\nphoto2chara_V13 (both) - repose char to photo pose, keeps bg.\nConverts photos of people into anime-style character illustrations. Not only the drawing style, but also facial features, body type, clothing, hairstyle, etc. are converted."
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -1346,80 +1370,56 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "Converts photos of people into anime-style character illustrations. Not only the drawing style, but also facial features, body type, clothing, hairstyle, etc. are converted, and the background is changed to a simple white."
+        "Converts photos of people into anime-style character illustrations. Not only the drawing style, but also facial features, body type, clothing, hairstyle, etc. are converted."
       ],
       "color": "#233",
       "bgcolor": "#355"
     },
     {
-      "id": 77,
-      "type": "LoadImage",
+      "id": 70,
+      "type": "FramePackLoraSelect",
       "pos": [
-        301.966552734375,
-        530.9547729492188
+        635.3445434570312,
+        57.77886962890625
       ],
       "size": [
-        615.048828125,
-        680.713134765625
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "slot_index": 0,
-          "links": [
-            248,
-            275
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "title": "PoseImage",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.29",
-        "Node name for S&R": "LoadImage",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "pasted/image (98).png",
-        "image"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 121,
-      "type": "Note",
-      "pos": [
-        311.76678466796875,
-        -351.8590393066406
-      ],
-      "size": [
-        278.18072509765625,
-        88
+        259.5113830566406,
+        106
       ],
       "flags": {},
       "order": 13,
       "mode": 0,
-      "inputs": [],
-      "outputs": [],
+      "inputs": [
+        {
+          "name": "prev_lora",
+          "shape": 7,
+          "type": "FPLORA",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "lora",
+          "type": "FPLORA",
+          "links": [
+            159
+          ]
+        }
+      ],
       "properties": {
+        "cnr_id": "comfyui-framepackwrapper_plusone",
+        "ver": "5300cdb786950ff44b6688481ae4b307b2d8d6f2",
+        "Node name for S&R": "FramePackLoraSelect",
+        "aux_id": "kijai/ComfyUI-FramePackWrapper",
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "Find the models on the OneFrame github: https://github.com/xhiroga/ComfyUI-FramePackWrapper_PlusOne\n\nFind the various loras here:\nhttps://huggingface.co/tori29umai/FramePack_LoRA/tree/main"
+        "framepack\\photo2chara_V13_BG.safetensors",
+        1,
+        false
       ],
-      "color": "#432",
-      "bgcolor": "#653"
+      "color": "#223",
+      "bgcolor": "#335"
     }
   ],
   "links": [
@@ -1831,10 +1831,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7400249944259821,
+      "scale": 0.6303940863128502,
       "offset": [
-        -201.966552734375,
-        451.8590393066406
+        -1011.2029077590006,
+        -467.7454420936988
       ]
     },
     "frontendVersion": "1.20.5",
