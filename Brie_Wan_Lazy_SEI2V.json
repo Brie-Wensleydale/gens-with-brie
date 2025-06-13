@@ -539,94 +539,6 @@
       "bgcolor": "#593930"
     },
     {
-      "id": 30,
-      "type": "VHS_VideoCombine",
-      "pos": [
-        1709.0133056640625,
-        -346.9453430175781
-      ],
-      "size": [
-        307.5619812011719,
-        635.56201171875
-      ],
-      "flags": {},
-      "order": 50,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 36
-        },
-        {
-          "name": "audio",
-          "shape": 7,
-          "type": "AUDIO",
-          "link": null
-        },
-        {
-          "name": "meta_batch",
-          "shape": 7,
-          "type": "VHS_BatchManager",
-          "link": null
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Filenames",
-          "type": "VHS_FILENAMES",
-          "slot_index": 0,
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
-        "ver": "73418575ca842f5f7575c48f17f45181e14715c1",
-        "Node name for S&R": "VHS_VideoCombine",
-        "widget_ue_connectable": {
-          "frame_rate": true,
-          "loop_count": true,
-          "filename_prefix": true,
-          "format": true,
-          "pingpong": true,
-          "save_output": true
-        }
-      },
-      "widgets_values": {
-        "frame_rate": 16,
-        "loop_count": 0,
-        "filename_prefix": "WanI2VLazy",
-        "format": "video/h264-mp4",
-        "pix_fmt": "yuv420p",
-        "crf": 19,
-        "save_metadata": true,
-        "trim_to_audio": false,
-        "pingpong": false,
-        "save_output": true,
-        "videopreview": {
-          "hidden": false,
-          "paused": false,
-          "params": {
-            "filename": "WanI2VLazy_00465.mp4",
-            "subfolder": "",
-            "type": "output",
-            "format": "video/h264-mp4",
-            "frame_rate": 16,
-            "workflow": "WanI2VLazy_00465.png",
-            "fullpath": "D:\\ComfyUI_windows_portable_20250319\\ComfyUI\\output\\WanI2VLazy_00465.mp4"
-          }
-        }
-      },
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
       "id": 71,
       "type": "ImageFromBatch",
       "pos": [
@@ -1226,102 +1138,6 @@
       ],
       "color": "#323",
       "bgcolor": "#535"
-    },
-    {
-      "id": 128,
-      "type": "VHS_VideoCombine",
-      "pos": [
-        2832.344482421875,
-        -481.4892272949219
-      ],
-      "size": [
-        296.1728515625,
-        534.830810546875
-      ],
-      "flags": {},
-      "order": 59,
-      "mode": 0,
-      "inputs": [
-        {
-          "label": "图像",
-          "name": "images",
-          "type": "IMAGE",
-          "link": 171
-        },
-        {
-          "label": "音频",
-          "name": "audio",
-          "shape": 7,
-          "type": "AUDIO",
-          "link": null
-        },
-        {
-          "label": "批次管理",
-          "name": "meta_batch",
-          "shape": 7,
-          "type": "VHS_BatchManager",
-          "link": null
-        },
-        {
-          "label": "vae",
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "label": "文件名",
-          "name": "Filenames",
-          "type": "VHS_FILENAMES"
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-videohelpersuite",
-        "ver": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
-        "Node name for S&R": "VHS_VideoCombine",
-        "ttNbgOverride": {
-          "bgcolor": "#353",
-          "groupcolor": "#8A8",
-          "color": "#232"
-        },
-        "widget_ue_connectable": {
-          "frame_rate": true,
-          "loop_count": true,
-          "filename_prefix": true,
-          "format": true,
-          "pingpong": true,
-          "save_output": true
-        }
-      },
-      "widgets_values": {
-        "frame_rate": 16,
-        "loop_count": 0,
-        "filename_prefix": "WanI2VLazyInfo",
-        "format": "video/h264-mp4",
-        "pix_fmt": "yuv420p",
-        "crf": 19,
-        "save_metadata": true,
-        "trim_to_audio": false,
-        "pingpong": false,
-        "save_output": false,
-        "videopreview": {
-          "paused": false,
-          "hidden": false,
-          "params": {
-            "filename": "WanI2VLazyInfo_00005.mp4",
-            "workflow": "WanI2VLazyInfo_00005.png",
-            "fullpath": "C:\\Users\\PC\\AppData\\Local\\Temp\\latentsync_e271fd5c\\WanI2VLazyInfo_00005.mp4",
-            "format": "video/h264-mp4",
-            "subfolder": "",
-            "type": "temp",
-            "frame_rate": 16
-          }
-        }
-      },
-      "color": "#232",
-      "bgcolor": "#353"
     },
     {
       "id": 92,
@@ -2345,81 +2161,6 @@
       "bgcolor": "#533"
     },
     {
-      "id": 74,
-      "type": "Image Save",
-      "pos": [
-        2060.99462890625,
-        -346.9453430175781
-      ],
-      "size": [
-        315,
-        626
-      ],
-      "flags": {},
-      "order": 55,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 71
-        }
-      ],
-      "outputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "links": null
-        },
-        {
-          "name": "files",
-          "type": "STRING",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "was-node-suite-comfyui",
-        "ver": "3ed45af34a14551dc28cb3127235cc7197d4633f",
-        "Node name for S&R": "Image Save",
-        "widget_ue_connectable": {
-          "output_path": true,
-          "filename_prefix": true,
-          "filename_delimiter": true,
-          "filename_number_padding": true,
-          "filename_number_start": true,
-          "extension": true,
-          "dpi": true,
-          "quality": true,
-          "optimize_image": true,
-          "lossless_webp": true,
-          "overwrite_mode": true,
-          "show_history": true,
-          "show_history_by_prefix": true,
-          "embed_workflow": true,
-          "show_previews": true
-        }
-      },
-      "widgets_values": [
-        "",
-        "WanI2VLazy",
-        "_",
-        5,
-        "false",
-        "png",
-        300,
-        100,
-        "true",
-        "false",
-        "false",
-        "false",
-        "true",
-        "true",
-        "true"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
       "id": 138,
       "type": "LoadImage",
       "pos": [
@@ -3185,6 +2926,51 @@
       "bgcolor": "#355"
     },
     {
+      "id": 11,
+      "type": "LoadWanVideoT5TextEncoder",
+      "pos": [
+        -307.950927734375,
+        -1118.6689453125
+      ],
+      "size": [
+        377.1661376953125,
+        130
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "wan_t5_model",
+          "type": "WANTEXTENCODER",
+          "slot_index": 0,
+          "links": [
+            15
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "ComfyUI-WanVideoWrapper",
+        "ver": "69e477ce7b5c77540faf1ddfa636870ec2a1917a",
+        "Node name for S&R": "LoadWanVideoT5TextEncoder",
+        "widget_ue_connectable": {
+          "model_name": true,
+          "precision": true,
+          "load_device": true,
+          "quantization": true
+        }
+      },
+      "widgets_values": [
+        "umt5-xxl-enc-bf16.safetensors",
+        "bf16",
+        "offload_device",
+        "fp8_e4m3fn"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
       "id": 87,
       "type": "String Literal",
       "pos": [
@@ -3196,7 +2982,7 @@
         176.11569213867188
       ],
       "flags": {},
-      "order": 27,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3237,7 +3023,7 @@
         195.9460906982422
       ],
       "flags": {},
-      "order": 28,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3267,49 +3053,263 @@
       "bgcolor": "#355"
     },
     {
-      "id": 11,
-      "type": "LoadWanVideoT5TextEncoder",
+      "id": 30,
+      "type": "VHS_VideoCombine",
       "pos": [
-        -307.950927734375,
-        -1118.6689453125
+        1709.0133056640625,
+        -346.9453430175781
       ],
       "size": [
-        377.1661376953125,
-        130
+        307.5619812011719,
+        635.56201171875
       ],
       "flags": {},
-      "order": 29,
+      "order": 50,
       "mode": 0,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 36
+        },
+        {
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "meta_batch",
+          "shape": 7,
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        }
+      ],
       "outputs": [
         {
-          "name": "wan_t5_model",
-          "type": "WANTEXTENCODER",
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
           "slot_index": 0,
-          "links": [
-            15
-          ]
+          "links": null
         }
       ],
       "properties": {
-        "cnr_id": "ComfyUI-WanVideoWrapper",
-        "ver": "69e477ce7b5c77540faf1ddfa636870ec2a1917a",
-        "Node name for S&R": "LoadWanVideoT5TextEncoder",
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "73418575ca842f5f7575c48f17f45181e14715c1",
+        "Node name for S&R": "VHS_VideoCombine",
         "widget_ue_connectable": {
-          "model_name": true,
-          "precision": true,
-          "load_device": true,
-          "quantization": true
+          "frame_rate": true,
+          "loop_count": true,
+          "filename_prefix": true,
+          "format": true,
+          "pingpong": true,
+          "save_output": true
+        }
+      },
+      "widgets_values": {
+        "frame_rate": 16,
+        "loop_count": 0,
+        "filename_prefix": "WanSEI2VLazy",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": true,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": true,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "WanI2VLazy_00465.mp4",
+            "subfolder": "",
+            "type": "output",
+            "format": "video/h264-mp4",
+            "frame_rate": 16,
+            "workflow": "WanI2VLazy_00465.png",
+            "fullpath": "D:\\ComfyUI_windows_portable_20250319\\ComfyUI\\output\\WanI2VLazy_00465.mp4"
+          }
+        }
+      },
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 74,
+      "type": "Image Save",
+      "pos": [
+        2060.99462890625,
+        -346.9453430175781
+      ],
+      "size": [
+        315,
+        626
+      ],
+      "flags": {},
+      "order": 55,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 71
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "files",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "3ed45af34a14551dc28cb3127235cc7197d4633f",
+        "Node name for S&R": "Image Save",
+        "widget_ue_connectable": {
+          "output_path": true,
+          "filename_prefix": true,
+          "filename_delimiter": true,
+          "filename_number_padding": true,
+          "filename_number_start": true,
+          "extension": true,
+          "dpi": true,
+          "quality": true,
+          "optimize_image": true,
+          "lossless_webp": true,
+          "overwrite_mode": true,
+          "show_history": true,
+          "show_history_by_prefix": true,
+          "embed_workflow": true,
+          "show_previews": true
         }
       },
       "widgets_values": [
-        "umt5-xxl-enc-bf16.safetensors",
-        "bf16",
-        "offload_device",
-        "fp8_e4m3fn"
+        "",
+        "WanSEI2VLazy",
+        "_",
+        5,
+        "false",
+        "png",
+        300,
+        100,
+        "true",
+        "false",
+        "false",
+        "false",
+        "true",
+        "true",
+        "true"
       ],
-      "color": "#223",
-      "bgcolor": "#335"
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 128,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        2832.344482421875,
+        -481.4892272949219
+      ],
+      "size": [
+        296.1728515625,
+        534.830810546875
+      ],
+      "flags": {},
+      "order": 59,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 171
+        },
+        {
+          "label": "音频",
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "label": "批次管理",
+          "name": "meta_batch",
+          "shape": 7,
+          "type": "VHS_BatchManager",
+          "link": null
+        },
+        {
+          "label": "vae",
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "文件名",
+          "name": "Filenames",
+          "type": "VHS_FILENAMES"
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-videohelpersuite",
+        "ver": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
+        "Node name for S&R": "VHS_VideoCombine",
+        "ttNbgOverride": {
+          "bgcolor": "#353",
+          "groupcolor": "#8A8",
+          "color": "#232"
+        },
+        "widget_ue_connectable": {
+          "frame_rate": true,
+          "loop_count": true,
+          "filename_prefix": true,
+          "format": true,
+          "pingpong": true,
+          "save_output": true
+        }
+      },
+      "widgets_values": {
+        "frame_rate": 16,
+        "loop_count": 0,
+        "filename_prefix": "WanSEI2VLazyInfo",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": true,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "paused": false,
+          "hidden": false,
+          "params": {
+            "filename": "WanI2VLazyInfo_00005.mp4",
+            "workflow": "WanI2VLazyInfo_00005.png",
+            "fullpath": "C:\\Users\\PC\\AppData\\Local\\Temp\\latentsync_e271fd5c\\WanI2VLazyInfo_00005.mp4",
+            "format": "video/h264-mp4",
+            "subfolder": "",
+            "type": "temp",
+            "frame_rate": 16
+          }
+        }
+      },
+      "color": "#232",
+      "bgcolor": "#353"
     }
   ],
   "links": [
@@ -3938,10 +3938,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.3186308177103567,
+      "scale": 0.8264462809917354,
       "offset": [
-        1543.21875,
-        1787.0159912109375
+        -1025.4733317904272,
+        650.7983705412546
       ]
     },
     "frontendVersion": "1.20.5",
