@@ -6,7 +6,7 @@ I wish to make easy and useful workflows where everything is tweaked already, an
 
 I will actively maintain any of the workflows that me and my clients use. I may depreciate some, but those will be clearly marked and will not be removed.
 
-Here's the readmes to some of the workflows.
+Here's the readmes to some of the workflows. I will complete these when I'm not swamped with work.
 
 Wan_Lazy_I2V
 Chinese
