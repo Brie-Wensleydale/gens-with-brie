@@ -9,7 +9,7 @@ This is just an unorganized pile of my workflows. I maintain whatever I like to 
 The better / newer workflows I post on CivitAI, here:
 https://civitai.com/user/slipperygem
 
-If things are old here, they're probably maintained. I don't guarentee things will work here, but feel free to try things out!
+If things are old here, they're probably not maintained. I don't guarentee things will work here, but feel free to try things out!
 
 Cheese and have a good one!
 
