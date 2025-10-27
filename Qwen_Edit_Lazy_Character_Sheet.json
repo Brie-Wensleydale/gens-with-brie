@@ -434,7 +434,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        197052404962770,
+        28006284541124,
         "randomize",
         4,
         1,
@@ -633,7 +633,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        818940211595357,
+        225843829543526,
         "randomize",
         4,
         1,
@@ -702,7 +702,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        160464232523980,
+        803669383439015,
         "randomize",
         4,
         1,
@@ -1179,7 +1179,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        492412221650445,
+        270727454614111,
         "randomize",
         4,
         1,
@@ -3104,7 +3104,7 @@
         }
       },
       "widgets_values": [
-        "dzenrei_waiv15 (1).png",
+        "4era7_waiv15.png",
         "image"
       ]
     },
@@ -4193,15 +4193,54 @@
       "color": "#a1309b",
       "font_size": 24,
       "flags": {}
+    },
+    {
+      "id": 10,
+      "title": ".     CivitAI: slipperygem",
+      "bounding": [
+        -769.8788420197658,
+        1813.3060897897158,
+        140,
+        80
+      ],
+      "color": "#88A",
+      "font_size": 96,
+      "flags": {}
+    },
+    {
+      "id": 11,
+      "title": ".     X: @SlipperyGem",
+      "bounding": [
+        -770.1617094514064,
+        1672.0228866647155,
+        140,
+        80
+      ],
+      "color": "#3f789e",
+      "font_size": 96,
+      "flags": {}
+    },
+    {
+      "id": 12,
+      "title": ".     YouTube: @BrieWensleydale",
+      "bounding": [
+        -767.6792265412502,
+        1529.1185897897142,
+        140,
+        80
+      ],
+      "color": "#b06634",
+      "font_size": 96,
+      "flags": {}
     }
   ],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.6934334949441427,
+      "scale": 0.24304420967398527,
       "offset": [
-        882.2445471391479,
-        -116.28839710187441
+        955.3132095030314,
+        630.9822441459087
       ]
     },
     "frontendVersion": "1.28.7",
