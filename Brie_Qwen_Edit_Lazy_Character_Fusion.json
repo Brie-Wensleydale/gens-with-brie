@@ -1,7 +1,7 @@
 {
   "id": "a3b9f48a-17cb-4dc1-93b3-e90d9665df5e",
   "revision": 0,
-  "last_node_id": 507,
+  "last_node_id": 509,
   "last_link_id": 853,
   "nodes": [
     {
@@ -115,59 +115,6 @@
       "widgets_values": []
     },
     {
-      "id": 396,
-      "type": "LayerMask: RemBgUltra",
-      "pos": [
-        90.06574088380452,
-        3238.029387752438
-      ],
-      "size": [
-        270,
-        150
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 39,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 631
-        }
-      ],
-      "outputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "links": [
-            629,
-            633
-          ]
-        },
-        {
-          "name": "mask",
-          "type": "MASK",
-          "links": [
-            630,
-            634
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_layerstyle",
-        "ver": "1.0.90",
-        "Node name for S&R": "LayerMask: RemBgUltra"
-      },
-      "widgets_values": [
-        8,
-        0.01,
-        0.98,
-        true
-      ]
-    },
-    {
       "id": 399,
       "type": "ImageUpscaleWithModel",
       "pos": [
@@ -179,7 +126,7 @@
         46
       ],
       "flags": {},
-      "order": 28,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -510,7 +457,7 @@
         86
       ],
       "flags": {},
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -526,7 +473,7 @@
           "links": null
         },
         {
-          "label": "1248 width",
+          "label": "1176 width",
           "name": "width",
           "type": "INT",
           "links": [
@@ -534,7 +481,7 @@
           ]
         },
         {
-          "label": "1672 height",
+          "label": "1768 height",
           "name": "height",
           "type": "INT",
           "links": null
@@ -596,7 +543,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -655,7 +602,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -1011,60 +958,6 @@
       "bgcolor": "#335"
     },
     {
-      "id": 406,
-      "type": "LoadImage",
-      "pos": [
-        -236.6812549463144,
-        3899.170262017714
-      ],
-      "size": [
-        274.080078125,
-        314.0000305175781
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            637,
-            729
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "title": "Background Image",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.50",
-        "Node name for S&R": "LoadImage",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "image": true,
-            "upload": true
-          }
-        }
-      },
-      "widgets_values": [
-        "church_ext_orig.png",
-        "image"
-      ]
-    },
-    {
       "id": 340,
       "type": "KSampler",
       "pos": [
@@ -1124,7 +1017,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        378627519910133,
+        83717285535774,
         "randomize",
         4,
         1,
@@ -1190,7 +1083,7 @@
         46
       ],
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1232,7 +1125,7 @@
         58
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1270,7 +1163,7 @@
         150
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1278,30 +1171,6 @@
       "properties": {},
       "widgets_values": [
         "Since the **TextEncodeQwenImageEditPlus** node will scale the image to 1M pixels, you might find that the output has a pixel-shifting issue.\n\nThe **Raw latent version** is to provide the raw latent to the sampler. This is the way you can provide the raw latent as an input condition."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 488,
-      "type": "MarkdownNote",
-      "pos": [
-        296.0494428463212,
-        1222.045586556823
-      ],
-      "size": [
-        270,
-        150
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Prompt",
-      "properties": {},
-      "widgets_values": [
-        "Here's the prompt structure, you can try improving on it if you like:\n\nMake the lighting of [the subject] to match the lighting of the scene. [The subject] is [lit in a certain way] and [casts a shadow a certain way]. Maintain color, lighting and mood in the scene. Maintain the pose and details of [the subject].\n\nFeel free to adjust as needed!"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -1318,7 +1187,7 @@
         82
       ],
       "flags": {},
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -1378,7 +1247,7 @@
         90
       ],
       "flags": {},
-      "order": 10,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1475,7 +1344,7 @@
         110
       ],
       "flags": {},
-      "order": 11,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1604,7 +1473,7 @@
         200
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -1669,7 +1538,7 @@
         58
       ],
       "flags": {},
-      "order": 12,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1705,7 +1574,7 @@
         60
       ],
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1888,7 +1757,7 @@
           "links": null
         },
         {
-          "label": "1280 width",
+          "label": "1288 width",
           "name": "width",
           "type": "INT",
           "links": [
@@ -1897,7 +1766,7 @@
           ]
         },
         {
-          "label": "1408 height",
+          "label": "1648 height",
           "name": "height",
           "type": "INT",
           "links": [
@@ -1931,7 +1800,7 @@
         46
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -2279,7 +2148,7 @@
         2,
         "cpu",
         0,
-        "<tr><td>Output: </td><td><b>1</b> x <b>2656</b> x <b>2656 | 80.73MB</b></td></tr>"
+        "<tr><td>Output: </td><td><b>1</b> x <b>2560</b> x <b>1440 | 42.19MB</b></td></tr>"
       ]
     },
     {
@@ -2512,7 +2381,7 @@
         58
       ],
       "flags": {},
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2548,7 +2417,7 @@
         166.53546919553492
       ],
       "flags": {},
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2572,7 +2441,7 @@
         281.4162274098094
       ],
       "flags": {},
-      "order": 16,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2596,7 +2465,7 @@
         130.54028940277703
       ],
       "flags": {},
-      "order": 17,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2620,7 +2489,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 18,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2657,7 +2526,7 @@
         }
       },
       "widgets_values": [
-        "QwenEditCharSheet_00028_.png",
+        "QwenEditCharSheet_00035_.png",
         "image"
       ]
     },
@@ -2809,71 +2678,6 @@
       ]
     },
     {
-      "id": 348,
-      "type": "TextEncodeQwenImageEditPlus",
-      "pos": [
-        230,
-        1520
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 30,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 811
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": null
-        },
-        {
-          "name": "image1",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "image2",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "image3",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            610
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.59",
-        "Node name for S&R": "TextEncodeQwenImageEditPlus"
-      },
-      "widgets_values": [
-        "Change the character in the background and pose pucture1 to a character on pictuer2. Make the lighting of the woman to match the lighting of the scene. She is a dimly backlit lavender by the moonlight and casts a clear shadow onto the ground. Maintain color, lighting and mood in the scene. Maintain the pose and details of the woman."
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 401,
       "type": "UpscaleModelLoader",
       "pos": [
@@ -2885,7 +2689,7 @@
         58
       ],
       "flags": {},
-      "order": 19,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2907,32 +2711,6 @@
       ]
     },
     {
-      "id": 459,
-      "type": "MarkdownNote",
-      "pos": [
-        -815.8118796746714,
-        1637.8047979173855
-      ],
-      "size": [
-        535.8118796746714,
-        412.5934918200385
-      ],
-      "flags": {},
-      "order": 20,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Model links",
-      "properties": {
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "[Tutorial](https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit)\n\n\n## Model links\n\nYou can find all the models on [Comfy-Org/Qwen-Image_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/tree/main) and  [Comfy-Org/Qwen-Image-Edit_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI) \n\n**Diffusion model**\n\n- [qwen_image_edit_2509_fp8_e4m3fn.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors)\n\n**LoRA**\n\n- [Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors)\n- [QIE_charaBG_V8_dim4_1e-3-000048.safetensors](https://huggingface.co/tori29umai/QwenImageEdit2509_LoRA/blob/main/QIE_charaBG_V8_dim4_1e-3-000048.safetensors)\n\n**Text encoder**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**Upcale Model**\n\n- [4x-Remacri.pt](https://openmodeldb.info/models/4x-Remacri)\n\n**VAE**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen_image_edit_2509_fp8_e4m3fn.safetensors\n│   ├── 📂 loras/\n│   │   |── Qwen-Image-Lightning-4steps-V1.0.safetensors\n│   │   └── QIE_image2body_V2_dim4_1e-3-000078.safetensors\n│   ├── 📂 upscale_models/\n│   │   └── qwen_image_vae.safetensors\n│   ├── 📂 vae/\n│   │   └── 4x-Remacri.pt\n│   └── 📂 text_encoders/\n│       └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n```\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 486,
       "type": "MarkdownNote",
       "pos": [
@@ -2944,7 +2722,7 @@
         150
       ],
       "flags": {},
-      "order": 21,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2968,7 +2746,7 @@
         131.09628113412646
       ],
       "flags": {},
-      "order": 22,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3325,78 +3103,6 @@
         "right",
         true
       ]
-    },
-    {
-      "id": 397,
-      "type": "LayerUtility: ImageBlendAdvance",
-      "pos": [
-        412.7326585889235,
-        3238.029387752438
-      ],
-      "size": [
-        296.0197655847926,
-        338
-      ],
-      "flags": {},
-      "order": 42,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "background_image",
-          "type": "IMAGE",
-          "link": 632
-        },
-        {
-          "name": "layer_image",
-          "type": "IMAGE",
-          "link": 633
-        },
-        {
-          "name": "layer_mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": 634
-        }
-      ],
-      "outputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "links": [
-            628,
-            642,
-            720
-          ]
-        },
-        {
-          "name": "mask",
-          "type": "MASK",
-          "links": [
-            643,
-            680
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_layerstyle",
-        "ver": "1.0.90",
-        "Node name for S&R": "LayerUtility: ImageBlendAdvance"
-      },
-      "widgets_values": [
-        false,
-        "normal",
-        100,
-        50,
-        84,
-        "None",
-        0.2,
-        1,
-        -15,
-        "lanczos",
-        0
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
     },
     {
       "id": 391,
@@ -3789,7 +3495,7 @@
         2,
         "cpu",
         0,
-        "<tr><td>Output: </td><td><b>1</b> x <b>1024</b> x <b>1642 | 19.24MB</b></td></tr>"
+        "<tr><td>Output: </td><td><b>1</b> x <b>1024</b> x <b>1284 | 15.05MB</b></td></tr>"
       ]
     },
     {
@@ -3804,7 +3510,7 @@
         58
       ],
       "flags": {},
-      "order": 23,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3895,7 +3601,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 24,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3935,7 +3641,7 @@
         }
       },
       "widgets_values": [
-        "QwenEditRepose_00169_.png",
+        "QwenEditRepose_00230_.png",
         "image"
       ]
     },
@@ -3951,7 +3657,7 @@
         150
       ],
       "flags": {},
-      "order": 25,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3975,7 +3681,7 @@
         150
       ],
       "flags": {},
-      "order": 26,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3999,7 +3705,7 @@
         129.10129366379624
       ],
       "flags": {},
-      "order": 27,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4007,6 +3713,300 @@
       "properties": {},
       "widgets_values": [
         "There is a 'Color Match' Node (Cyan) in the comp section, it tints the color of the fusion image back to match the original background image. \n\nIt must not be bypassed, but you can adjust the strength, and, if need be, disable it by making the strength '0'. Higher for real/3d, lower for anime/cartoon.\n\nBy default I've set it to 20."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 396,
+      "type": "LayerMask: RemBgUltra",
+      "pos": [
+        90.06574088380452,
+        3238.029387752438
+      ],
+      "size": [
+        270,
+        150
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 631
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            629,
+            633
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            630,
+            634
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "1.0.90",
+        "Node name for S&R": "LayerMask: RemBgUltra"
+      },
+      "widgets_values": [
+        8,
+        0.01,
+        0.98,
+        true
+      ]
+    },
+    {
+      "id": 406,
+      "type": "LoadImage",
+      "pos": [
+        -236.6812549463144,
+        3899.170262017714
+      ],
+      "size": [
+        274.080078125,
+        314.0000305175781
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            637,
+            729
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "title": "Background Image",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.50",
+        "Node name for S&R": "LoadImage",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "image": true,
+            "upload": true
+          }
+        }
+      },
+      "widgets_values": [
+        "SSBU-Brinstar_Depths.png",
+        "image"
+      ]
+    },
+    {
+      "id": 348,
+      "type": "TextEncodeQwenImageEditPlus",
+      "pos": [
+        230,
+        1520
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 811
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        },
+        {
+          "name": "image1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            610
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "TextEncodeQwenImageEditPlus"
+      },
+      "widgets_values": [
+        "Change the character in the background and pose pucture1 to a character on pictuer2. Make the lighting of the woman to match the lighting of the scene. She is intensely lit from behind by a deep orange flow and casts a soft shadow on the ground. Maintain color, lighting and mood in the scene. Maintain the pose and details of the woman."
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 397,
+      "type": "LayerUtility: ImageBlendAdvance",
+      "pos": [
+        412.7326585889235,
+        3238.029387752438
+      ],
+      "size": [
+        296.0197655847926,
+        338
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "background_image",
+          "type": "IMAGE",
+          "link": 632
+        },
+        {
+          "name": "layer_image",
+          "type": "IMAGE",
+          "link": 633
+        },
+        {
+          "name": "layer_mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": 634
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            628,
+            642,
+            720
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            643,
+            680
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "1.0.90",
+        "Node name for S&R": "LayerUtility: ImageBlendAdvance"
+      },
+      "widgets_values": [
+        false,
+        "normal",
+        100,
+        72,
+        62,
+        "None",
+        0.3,
+        1,
+        0,
+        "lanczos",
+        0
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 459,
+      "type": "MarkdownNote",
+      "pos": [
+        -815.8118796746714,
+        1637.8047979173855
+      ],
+      "size": [
+        535.8118796746714,
+        412.5934918200385
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Model links",
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "[Tutorial](https://docs.comfy.org/tutorials/image/qwen/qwen-image-edit)\n\n\n## Model links\n\nYou can find all the models on [Comfy-Org/Qwen-Image_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/tree/main) and  [Comfy-Org/Qwen-Image-Edit_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI) \n\n**Diffusion model**\n\n- [qwen_image_edit_2509_fp8_e4m3fn.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors)\n\n**LoRA**\n\n- [Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors)\n- [QIE_charaBG_V8_dim4_1e-3-000048.safetensors](https://huggingface.co/tori29umai/QwenImageEdit2509_LoRA/blob/main/QIE_charaBG_V8_dim4_1e-3-000048.safetensors)\n\n**Text encoder**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**Upcale Model**\n\n- [4x-Remacri.pt](https://openmodeldb.info/models/4x-Remacri)\n\n**VAE**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   └── qwen_image_edit_2509_fp8_e4m3fn.safetensors\n│   ├── 📂 loras/\n│   │   |── Qwen-Image-Lightning-4steps-V1.0.safetensors\n│   │   └── QIE_image2body_V2_dim4_1e-3-000078.safetensors\n│   ├── 📂 upscale_models/\n│   │   └── qwen_image_vae.safetensors\n│   ├── 📂 vae/\n│   │   └── 4x-Remacri.pt\n│   └── 📂 text_encoders/\n│       └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n```\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 488,
+      "type": "MarkdownNote",
+      "pos": [
+        296.0494428463212,
+        1222.045586556823
+      ],
+      "size": [
+        270,
+        151.79086048651038
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Prompt",
+      "properties": {},
+      "widgets_values": [
+        "Here's the prompt structure, you can try improving on it if you like:\n\nMake the lighting of [the subject] to match the lighting of the scene. [The subject] is [lit in a certain way] and [casts a shadow and/or a reflection a certain way onto some surface]. Maintain color, lighting and mood in the scene. Maintain the pose and details of [the subject].\n\nFeel free to adjust as needed!"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -5663,10 +5663,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1.3513057093104042,
+      "scale": 1.1167815779425072,
       "offset": [
-        829.5944704878293,
-        -3149.6017534979887
+        560.3628276813623,
+        -1174.141586624336
       ]
     },
     "frontendVersion": "1.28.7",
