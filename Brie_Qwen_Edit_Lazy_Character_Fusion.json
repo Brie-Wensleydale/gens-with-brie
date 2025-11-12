@@ -2133,7 +2133,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        998924752030747,
+        44156729469878,
         "randomize",
         8,
         1,
@@ -3403,12 +3403,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_jpzse_00013_.png&type=temp&subfolder=&rand=0.4109359447183599"
+            "url": "/api/view?filename=rgthree.compare._temp_nppai_00001_.png&type=temp&subfolder=&rand=0.8948694399794122"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_jpzse_00014_.png&type=temp&subfolder=&rand=0.14432074213035984"
+            "url": "/api/view?filename=rgthree.compare._temp_nppai_00002_.png&type=temp&subfolder=&rand=0.4818001867676516"
           }
         ]
       ]
@@ -3446,7 +3446,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        600624779389051,
+        1091532679994521,
         "randomize"
       ],
       "color": "#223",
@@ -3498,30 +3498,6 @@
       "widgets_values": []
     },
     {
-      "id": 505,
-      "type": "MarkdownNote",
-      "pos": [
-        -590,
-        2868.6727965193036
-      ],
-      "size": [
-        310,
-        130.54028940277703
-      ],
-      "flags": {},
-      "order": 23,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Character sheet",
-      "properties": {},
-      "widgets_values": [
-        "The character sheet can be generated using my Lazy Character Sheet workflow.\n\nThe character should be facing front, left, back and right, in that order.\n\nTechnically, the charaBG lora can run even if there's only one forward-facing image, or some other direction of relevance, but the character sheet works best."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 496,
       "type": "UNETLoader",
       "pos": [
@@ -3533,7 +3509,7 @@
         90
       ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3649,7 +3625,7 @@
         110
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3707,7 +3683,7 @@
         60
       ],
       "flags": {},
-      "order": 26,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4186,7 +4162,7 @@
         58
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4287,7 +4263,7 @@
         184.70646627156475
       ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4376,7 +4352,7 @@
         191.44665633694058
       ],
       "flags": {},
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4601,7 +4577,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4837,7 +4813,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5108,7 +5084,7 @@
         281.4162274098094
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5132,7 +5108,7 @@
         110.87349982770684
       ],
       "flags": {},
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5156,7 +5132,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5297,7 +5273,7 @@
         88
       ],
       "flags": {},
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5321,7 +5297,7 @@
         88
       ],
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5930,7 +5906,7 @@
         351.8249984797644
       ],
       "flags": {},
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5954,7 +5930,7 @@
         351.8249984797644
       ],
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5978,7 +5954,7 @@
         82
       ],
       "flags": {},
-      "order": 39,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6074,7 +6050,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        475193306632620,
+        189812838000931,
         "randomize",
         4,
         1,
@@ -6095,7 +6071,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 40,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6332,7 +6308,7 @@
         58
       ],
       "flags": {},
-      "order": 41,
+      "order": 40,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6355,6 +6331,30 @@
       ],
       "color": "#222",
       "bgcolor": "#000"
+    },
+    {
+      "id": 505,
+      "type": "MarkdownNote",
+      "pos": [
+        -590,
+        2868.6727965193036
+      ],
+      "size": [
+        310,
+        130.54028940277703
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Character sheet",
+      "properties": {},
+      "widgets_values": [
+        "The character sheet can be generated using my Lazy Character Sheet workflow.\n\nThe character should be facing front, left, back and right, in that order.\n\nThe charaBG lora can run if its just the front image, or just the front torso image. In some cases, these types of images work better. Test and see what works best."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -9162,10 +9162,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.32349184307607437,
+      "scale": 1.1167815779425023,
       "offset": [
-        1174.0190340660488,
-        -1350.5507108604065
+        1112.3727588426182,
+        -2759.0177077687135
       ]
     },
     "frontendVersion": "1.28.8",
