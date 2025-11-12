@@ -1,8 +1,8 @@
 {
   "id": "148e3cbd-da99-464e-927a-ac6193716774",
   "revision": 0,
-  "last_node_id": 607,
-  "last_link_id": 998,
+  "last_node_id": 612,
+  "last_link_id": 1019,
   "nodes": [
     {
       "id": 352,
@@ -1041,7 +1041,7 @@
         "center",
         2,
         "cpu",
-        "<tr><td>Output: </td><td><b>1</b> x <b>3840</b> x <b>2160 | 94.92MB</b></td></tr>"
+        "<tr><td>Output: </td><td><b>1</b> x <b>2656</b> x <b>2656 | 80.73MB</b></td></tr>"
       ]
     },
     {
@@ -1428,7 +1428,7 @@
         "center",
         2,
         "cpu",
-        "<tr><td>Output: </td><td><b>1</b> x <b>1024</b> x <b>1248 | 14.62MB</b></td></tr>"
+        "<tr><td>Output: </td><td><b>1</b> x <b>1024</b> x <b>1998 | 23.41MB</b></td></tr>"
       ]
     },
     {
@@ -1846,61 +1846,6 @@
       "widgets_values": []
     },
     {
-      "id": 525,
-      "type": "ImageScaleToTotalPixels",
-      "pos": [
-        -220.11836366384185,
-        5544.6523566165415
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 52,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 871
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            868,
-            876,
-            897
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.50",
-        "Node name for S&R": "ImageScaleToTotalPixels",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "upscale_method": true,
-            "megapixels": true
-          }
-        }
-      },
-      "widgets_values": [
-        "lanczos",
-        2
-      ]
-    },
-    {
       "id": 545,
       "type": "GetImageSizeAndCount",
       "pos": [
@@ -2133,7 +2078,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        44156729469878,
+        988369114985111,
         "randomize",
         8,
         1,
@@ -2460,7 +2405,7 @@
           "links": null
         },
         {
-          "label": "2400 width",
+          "label": "2000 width",
           "name": "width",
           "type": "INT",
           "links": [
@@ -2468,7 +2413,7 @@
           ]
         },
         {
-          "label": "3488 height",
+          "label": "4160 height",
           "name": "height",
           "type": "INT",
           "links": null
@@ -2933,7 +2878,7 @@
         }
       },
       "widgets_values": [
-        "SSBU-Dracula's_Castle.png",
+        "church_ext_orig.png",
         "image"
       ],
       "color": "#322",
@@ -3403,12 +3348,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_nppai_00001_.png&type=temp&subfolder=&rand=0.8948694399794122"
+            "url": "/api/view?filename=rgthree.compare._temp_nppai_00113_.png&type=temp&subfolder=&rand=0.3890778483804438"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_nppai_00002_.png&type=temp&subfolder=&rand=0.4818001867676516"
+            "url": "/api/view?filename=rgthree.compare._temp_nppai_00114_.png&type=temp&subfolder=&rand=0.9026853640835136"
           }
         ]
       ]
@@ -3446,7 +3391,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        1091532679994521,
+        862742114047898,
         "randomize"
       ],
       "color": "#223",
@@ -4187,160 +4132,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 566,
-      "type": "TextEncodeQwenImageEditPlus",
-      "pos": [
-        2913.4223957042304,
-        4410.229305157833
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 49,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 944
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": 946
-        },
-        {
-          "name": "image1",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "image2",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "image3",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            913
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.59",
-        "Node name for S&R": "TextEncodeQwenImageEditPlus"
-      },
-      "widgets_values": [
-        "Enhance image quality. Maintain color, style and detail.\n\nThis is a anime line art picture of a white model of a muscular bald woman."
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 586,
-      "type": "MarkdownNote",
-      "pos": [
-        2457.702952282056,
-        5035.592849383372
-      ],
-      "size": [
-        418.80403510836004,
-        184.70646627156475
-      ],
-      "flags": {},
-      "order": 27,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Dummy Enhancement Prompt",
-      "properties": {},
-      "widgets_values": [
-        "Its best you describe briefly the bottom portion of the image. Mention the style and sex of the character if possible.\n\nFor example:\n\n\"This is a anime line art picture of a white model of a muscular bald woman.\"\n\n\"This is a picture of a 3d model of a middle-aged bald man.\""
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 348,
-      "type": "TextEncodeQwenImageEditPlus",
-      "pos": [
-        230,
-        1520
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 47,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 811
-        },
-        {
-          "name": "vae",
-          "shape": 7,
-          "type": "VAE",
-          "link": null
-        },
-        {
-          "name": "image1",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "image2",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        },
-        {
-          "name": "image3",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            610
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.59",
-        "Node name for S&R": "TextEncodeQwenImageEditPlus"
-      },
-      "widgets_values": [
-        "Change the character in the background and pose pucture1 to a character on pictuer2. Make the lighting of the woman to match the lighting of the scene. She is rimlight from above with a cool blue light. She is dimly lit from behind with soft warm candlelight. She casts a soft shadow on the ground. Maintain color, lighting and mood in the scene. Maintain the pose and details of the woman."
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 487,
       "type": "MarkdownNote",
       "pos": [
@@ -4352,7 +4143,7 @@
         191.44665633694058
       ],
       "flags": {},
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -4420,87 +4211,6 @@
       "widgets_values": [],
       "color": "#332922",
       "bgcolor": "#593930"
-    },
-    {
-      "id": 469,
-      "type": "LayerUtility: LayerMaskTransform",
-      "pos": [
-        3146.6296637567084,
-        2096.2648089056793
-      ],
-      "size": [
-        276.39282852901886,
-        226
-      ],
-      "flags": {},
-      "order": 118,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "mask",
-          "type": "MASK",
-          "link": 769
-        },
-        {
-          "name": "x",
-          "type": "INT",
-          "widget": {
-            "name": "x"
-          },
-          "link": 797
-        },
-        {
-          "name": "y",
-          "type": "INT",
-          "widget": {
-            "name": "y"
-          },
-          "link": 798
-        },
-        {
-          "name": "scale",
-          "type": "FLOAT",
-          "widget": {
-            "name": "scale"
-          },
-          "link": 779
-        },
-        {
-          "name": "aspect_ratio",
-          "type": "FLOAT",
-          "widget": {
-            "name": "aspect_ratio"
-          },
-          "link": 803
-        }
-      ],
-      "outputs": [
-        {
-          "name": "mask",
-          "type": "MASK",
-          "links": [
-            770,
-            771
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_layerstyle",
-        "ver": "1.0.90",
-        "Node name for S&R": "LayerUtility: LayerMaskTransform"
-      },
-      "widgets_values": [
-        0,
-        0,
-        "None",
-        1,
-        1.1,
-        0,
-        "lanczos",
-        2
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
     },
     {
       "id": 531,
@@ -4577,7 +4287,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -4717,53 +4427,6 @@
       ]
     },
     {
-      "id": 400,
-      "type": "ImageUpscaleWithModel",
-      "pos": [
-        90.06574088380452,
-        3647.86845555805
-      ],
-      "size": [
-        270,
-        46
-      ],
-      "flags": {},
-      "order": 86,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "upscale_model",
-          "type": "UPSCALE_MODEL",
-          "link": 638
-        },
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 951
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            970,
-            971,
-            972,
-            973
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.65",
-        "Node name for S&R": "ImageUpscaleWithModel"
-      },
-      "widgets_values": [],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
       "id": 395,
       "type": "Preview_Mask_Plus",
       "pos": [
@@ -4781,12 +4444,12 @@
         {
           "name": "image",
           "type": "IMAGE",
-          "link": 976
+          "link": 1004
         },
         {
           "name": "mask",
           "type": "MASK",
-          "link": 977
+          "link": 1005
         }
       ],
       "outputs": [],
@@ -4799,107 +4462,6 @@
       "widgets_values": [
         false,
         "Gray"
-      ]
-    },
-    {
-      "id": 596,
-      "type": "LoadImage",
-      "pos": [
-        -236.6812549463144,
-        3238.029387752438
-      ],
-      "size": [
-        274.080078125,
-        314.0000305175781
-      ],
-      "flags": {},
-      "order": 30,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": []
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "title": "Character Dummy (Optional)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.50",
-        "Node name for S&R": "LoadImage",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "image": true,
-            "upload": true
-          }
-        }
-      },
-      "widgets_values": [
-        "pasted/image (7).png",
-        "image"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 599,
-      "type": "InspyrenetRembg",
-      "pos": [
-        90.06574088380452,
-        3356.0294030112273
-      ],
-      "size": [
-        270,
-        78
-      ],
-      "flags": {},
-      "order": 90,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 973
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            974,
-            976
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            975,
-            977
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-inspyrenet-rembg",
-        "ver": "1.1.1",
-        "Node name for S&R": "InspyrenetRembg"
-      },
-      "widgets_values": [
-        "default"
       ]
     },
     {
@@ -5041,7 +4603,7 @@
           "links": null
         },
         {
-          "label": "1928 width",
+          "label": "1424 width",
           "name": "width",
           "type": "INT",
           "links": [
@@ -5050,7 +4612,7 @@
           ]
         },
         {
-          "label": "2304 height",
+          "label": "2496 height",
           "name": "height",
           "type": "INT",
           "links": [
@@ -5084,7 +4646,7 @@
         281.4162274098094
       ],
       "flags": {},
-      "order": 31,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5092,30 +4654,6 @@
       "properties": {},
       "widgets_values": [
         "If your character or shadow are completely contained and within the edge mask, then the LayerMaskTransform, blue node, in Compositing, can be bypassed entirely. This is the default setting. When bypassed, all four edges will be feathered. Should be fine even if it remains on, although the bottom edge seam may be visible.\n\nIf your character or shadow contacts the edge of the full image, then the LayerMaskTransform must be activated. When active, the default option is is that the BOTTOM edge of the mask is not feathered. I did this because the character clipping into the bottom edge seemed like the most common form of clipping.\n\nIf your character or shadow contacts one of the side edges as well, you can further adjust manually with '1' in X Scale and either '1' (for leftward) or '-1' (for rightward) in X Move.\n\nThis setup only supports clipping one edge in each x and y direction. Anything more complicated than that and you'll need to disconnect all non-mask connections in LayerMaskTransform, calculate and enter the values manually. You can  use the expanded math node results as reference numbers to work off of."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 484,
-      "type": "MarkdownNote",
-      "pos": [
-        -590,
-        2314.329235914825
-      ],
-      "size": [
-        307.2193501423537,
-        110.87349982770684
-      ],
-      "flags": {},
-      "order": 32,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Crop Edge Reserve Percentage",
-      "properties": {},
-      "widgets_values": [
-        "Crop Edge Reserve Percentage:\nThe amount to extend the character's crop by mask. The default is 25%.\n\nIf your character takes up a smaller amount of the cropped image or if you're getting weird residual characters, you need to reduce this value. The character body and head must take up a significant portion of the cropped image."
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -5132,7 +4670,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 33,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5162,7 +4700,7 @@
         {
           "name": "image1",
           "type": "IMAGE",
-          "link": 958
+          "link": 1000
         },
         {
           "name": "image2",
@@ -5190,78 +4728,6 @@
       ]
     },
     {
-      "id": 397,
-      "type": "LayerUtility: ImageBlendAdvance",
-      "pos": [
-        412.7326585889235,
-        3238.029387752438
-      ],
-      "size": [
-        296.0197655847926,
-        338
-      ],
-      "flags": {},
-      "order": 92,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "background_image",
-          "type": "IMAGE",
-          "link": 632
-        },
-        {
-          "name": "layer_image",
-          "type": "IMAGE",
-          "link": 974
-        },
-        {
-          "name": "layer_mask",
-          "shape": 7,
-          "type": "MASK",
-          "link": 975
-        }
-      ],
-      "outputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "links": [
-            628,
-            642,
-            720
-          ]
-        },
-        {
-          "name": "mask",
-          "type": "MASK",
-          "links": [
-            643,
-            680
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_layerstyle",
-        "ver": "1.0.90",
-        "Node name for S&R": "LayerUtility: ImageBlendAdvance"
-      },
-      "widgets_values": [
-        false,
-        "normal",
-        100,
-        48,
-        70,
-        "None",
-        0.35,
-        1,
-        0,
-        "lanczos",
-        0
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 535,
       "type": "MarkdownNote",
       "pos": [
@@ -5273,7 +4739,7 @@
         88
       ],
       "flags": {},
-      "order": 34,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5297,7 +4763,7 @@
         88
       ],
       "flags": {},
-      "order": 35,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5436,53 +4902,6 @@
       "widgets_values": []
     },
     {
-      "id": 519,
-      "type": "ImageConcatMulti",
-      "pos": [
-        2078.854528204382,
-        4372.622358971026
-      ],
-      "size": [
-        270,
-        150
-      ],
-      "flags": {},
-      "order": 77,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image_1",
-          "type": "IMAGE",
-          "link": 860
-        },
-        {
-          "name": "image_2",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 995
-        }
-      ],
-      "outputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "links": [
-            964
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-kjnodes",
-        "ver": "1.1.7"
-      },
-      "widgets_values": [
-        2,
-        "right",
-        true,
-        null
-      ]
-    },
-    {
       "id": 540,
       "type": "Preview_Mask_Plus",
       "pos": [
@@ -5519,245 +4938,6 @@
         false,
         "Gray"
       ]
-    },
-    {
-      "id": 538,
-      "type": "LayerUtility: CropByMask V2",
-      "pos": [
-        1307.3979506212122,
-        4320.715518867699
-      ],
-      "size": [
-        278.0650390625,
-        262
-      ],
-      "flags": {},
-      "order": 71,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 978
-        },
-        {
-          "name": "mask",
-          "type": "MASK",
-          "link": 979
-        },
-        {
-          "name": "crop_box",
-          "shape": 7,
-          "type": "BOX",
-          "link": null
-        },
-        {
-          "name": "top_reserve",
-          "type": "INT",
-          "widget": {
-            "name": "top_reserve"
-          },
-          "link": 900
-        },
-        {
-          "name": "bottom_reserve",
-          "type": "INT",
-          "widget": {
-            "name": "bottom_reserve"
-          },
-          "link": 901
-        },
-        {
-          "name": "left_reserve",
-          "type": "INT",
-          "widget": {
-            "name": "left_reserve"
-          },
-          "link": 902
-        },
-        {
-          "name": "right_reserve",
-          "type": "INT",
-          "widget": {
-            "name": "right_reserve"
-          },
-          "link": 903
-        }
-      ],
-      "outputs": [
-        {
-          "name": "croped_image",
-          "type": "IMAGE",
-          "links": [
-            891,
-            989,
-            997
-          ]
-        },
-        {
-          "name": "croped_mask",
-          "type": "MASK",
-          "links": [
-            892,
-            992
-          ]
-        },
-        {
-          "name": "crop_box",
-          "type": "BOX",
-          "links": []
-        },
-        {
-          "name": "box_preview",
-          "type": "IMAGE",
-          "links": [
-            895
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui_layerstyle",
-        "ver": "1.0.90",
-        "Node name for S&R": "LayerUtility: CropByMask V2"
-      },
-      "widgets_values": [
-        false,
-        "mask_area",
-        20,
-        20,
-        20,
-        20,
-        "8"
-      ],
-      "color": "rgba(38, 73, 116, 0.7)"
-    },
-    {
-      "id": 600,
-      "type": "InspyrenetRembg",
-      "pos": [
-        1079.8816363361577,
-        4320.715518867699
-      ],
-      "size": [
-        210,
-        78
-      ],
-      "flags": {},
-      "order": 70,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 980
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            978
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": [
-            979
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfyui-inspyrenet-rembg",
-        "ver": "1.1.1",
-        "Node name for S&R": "InspyrenetRembg"
-      },
-      "widgets_values": [
-        "default"
-      ]
-    },
-    {
-      "id": 520,
-      "type": "VAEDecode",
-      "pos": [
-        1079.8816363361577,
-        4489.358680637761
-      ],
-      "size": [
-        210,
-        46
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 69,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 862
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 882
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "slot_index": 0,
-          "links": [
-            980
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.48",
-        "Node name for S&R": "VAEDecode",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": []
-    },
-    {
-      "id": 591,
-      "type": "PreviewImage",
-      "pos": [
-        1079.8816363361577,
-        4626.001842407823
-      ],
-      "size": [
-        950,
-        1040
-      ],
-      "flags": {},
-      "order": 79,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 964
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.65",
-        "Node name for S&R": "PreviewImage"
-      },
-      "widgets_values": []
     },
     {
       "id": 604,
@@ -5906,7 +5086,7 @@
         351.8249984797644
       ],
       "flags": {},
-      "order": 36,
+      "order": 33,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5930,7 +5110,7 @@
         351.8249984797644
       ],
       "flags": {},
-      "order": 37,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5941,46 +5121,6 @@
       ],
       "color": "#432",
       "bgcolor": "#653"
-    },
-    {
-      "id": 584,
-      "type": "Seed Generator (Image Saver)",
-      "pos": [
-        -590,
-        3238.029387752438
-      ],
-      "size": [
-        310,
-        82
-      ],
-      "flags": {},
-      "order": 38,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            960
-          ]
-        }
-      ],
-      "title": "Character Dummy Seed (first)",
-      "properties": {
-        "aux_id": "alexopus/ComfyUI-Image-Saver",
-        "ver": "356dbb536f8fd2d4aa6c99e1336ea7289a31728f",
-        "Node name for S&R": "Seed Generator (Image Saver)",
-        "cnr_id": "comfyui-image-saver",
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        1018596694169497,
-        "fixed"
-      ],
-      "color": "#223",
-      "bgcolor": "#335",
-      "shape": 1
     },
     {
       "id": 511,
@@ -6050,7 +5190,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        189812838000931,
+        392195809862226,
         "randomize",
         4,
         1,
@@ -6071,7 +5211,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 39,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6079,9 +5219,7 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            860,
-            871,
-            958
+            871
           ]
         },
         {
@@ -6110,7 +5248,7 @@
         }
       },
       "widgets_values": [
-        "120536894391212.png",
+        "196789244722295.png",
         "image"
       ],
       "color": "#322",
@@ -6297,6 +5435,317 @@
       "color": "rgba(38, 73, 116, 0.7)"
     },
     {
+      "id": 505,
+      "type": "MarkdownNote",
+      "pos": [
+        -590,
+        2868.6727965193036
+      ],
+      "size": [
+        310,
+        130.54028940277703
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Character sheet",
+      "properties": {},
+      "widgets_values": [
+        "The character sheet can be generated using my Lazy Character Sheet workflow.\n\nThe character should be facing front, left, back and right, in that order.\n\nThe charaBG lora can run if its just the front image, or just the front torso image. In some cases, these types of images work better. Test and see what works best."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 591,
+      "type": "PreviewImage",
+      "pos": [
+        1079.8816363361577,
+        4626.001842407823
+      ],
+      "size": [
+        950,
+        1040
+      ],
+      "flags": {},
+      "order": 79,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 964
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.65",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 519,
+      "type": "ImageConcatMulti",
+      "pos": [
+        2078.854528204382,
+        4372.622358971026
+      ],
+      "size": [
+        270,
+        150
+      ],
+      "flags": {},
+      "order": 77,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 999
+        },
+        {
+          "name": "image_2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 995
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            964
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "1.1.7"
+      },
+      "widgets_values": [
+        2,
+        "right",
+        true,
+        null
+      ]
+    },
+    {
+      "id": 525,
+      "type": "ImageScaleToTotalPixels",
+      "pos": [
+        -220.11836366384185,
+        5544.6523566165415
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 871
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            868,
+            876,
+            897,
+            999,
+            1000
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.50",
+        "Node name for S&R": "ImageScaleToTotalPixels",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "upscale_method": true,
+            "megapixels": true
+          }
+        }
+      },
+      "widgets_values": [
+        "lanczos",
+        2
+      ]
+    },
+    {
+      "id": 586,
+      "type": "MarkdownNote",
+      "pos": [
+        2457.702952282056,
+        5035.592849383372
+      ],
+      "size": [
+        418.80403510836004,
+        184.70646627156475
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Dummy Enhancement Prompt",
+      "properties": {},
+      "widgets_values": [
+        "Its best you describe briefly the bottom portion of the image. Mention the style and sex of the character if possible.\n\nFor example:\n\n\"This is a anime line art picture of a white model of a muscular bald woman.\"\n\n\"This is a picture of a 3d model of a middle-aged bald man.\""
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 566,
+      "type": "TextEncodeQwenImageEditPlus",
+      "pos": [
+        2913.4223957042304,
+        4410.229305157833
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 944
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": 946
+        },
+        {
+          "name": "image1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            913
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "TextEncodeQwenImageEditPlus"
+      },
+      "widgets_values": [
+        "Enhance image quality. Maintain color, style and detail.\n\nThis is an anime line art picture of a white model of a muscular bald woman."
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 348,
+      "type": "TextEncodeQwenImageEditPlus",
+      "pos": [
+        230,
+        1520
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 811
+        },
+        {
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": null
+        },
+        {
+          "name": "image1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            610
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.59",
+        "Node name for S&R": "TextEncodeQwenImageEditPlus"
+      },
+      "widgets_values": [
+        "Change the character in the background and pose pucture1 to a character on pictuer2. Make the lighting of the woman to match the lighting of the scene. She is rimlit from above with cool blue moonlight. She is lit from behind with a soft red light. She casts a soft shadow on the ground. Maintain color, lighting and mood in the scene. Maintain the pose and details of the woman."
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
       "id": 464,
       "type": "INTConstant",
       "pos": [
@@ -6308,7 +5757,7 @@
         58
       ],
       "flags": {},
-      "order": 40,
+      "order": 38,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6327,31 +5776,592 @@
         "Node name for S&R": "INTConstant"
       },
       "widgets_values": [
-        25
+        15
       ],
       "color": "#222",
       "bgcolor": "#000"
     },
     {
-      "id": 505,
-      "type": "MarkdownNote",
+      "id": 584,
+      "type": "Seed Generator (Image Saver)",
       "pos": [
         -590,
-        2868.6727965193036
+        3238.029387752438
       ],
       "size": [
         310,
-        130.54028940277703
+        82
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            960
+          ]
+        }
+      ],
+      "title": "Character Dummy Seed (first)",
+      "properties": {
+        "aux_id": "alexopus/ComfyUI-Image-Saver",
+        "ver": "356dbb536f8fd2d4aa6c99e1336ea7289a31728f",
+        "Node name for S&R": "Seed Generator (Image Saver)",
+        "cnr_id": "comfyui-image-saver",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        421713721953043,
+        "fixed"
+      ],
+      "color": "#223",
+      "bgcolor": "#335",
+      "shape": 1
+    },
+    {
+      "id": 538,
+      "type": "LayerUtility: CropByMask V2",
+      "pos": [
+        1307.3979506212122,
+        4320.715518867699
+      ],
+      "size": [
+        278.0650390625,
+        262
+      ],
+      "flags": {},
+      "order": 71,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1018
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 1019
+        },
+        {
+          "name": "crop_box",
+          "shape": 7,
+          "type": "BOX",
+          "link": null
+        },
+        {
+          "name": "top_reserve",
+          "type": "INT",
+          "widget": {
+            "name": "top_reserve"
+          },
+          "link": 900
+        },
+        {
+          "name": "bottom_reserve",
+          "type": "INT",
+          "widget": {
+            "name": "bottom_reserve"
+          },
+          "link": 901
+        },
+        {
+          "name": "left_reserve",
+          "type": "INT",
+          "widget": {
+            "name": "left_reserve"
+          },
+          "link": 902
+        },
+        {
+          "name": "right_reserve",
+          "type": "INT",
+          "widget": {
+            "name": "right_reserve"
+          },
+          "link": 903
+        }
+      ],
+      "outputs": [
+        {
+          "name": "croped_image",
+          "type": "IMAGE",
+          "links": [
+            891,
+            989,
+            997
+          ]
+        },
+        {
+          "name": "croped_mask",
+          "type": "MASK",
+          "links": [
+            892,
+            992
+          ]
+        },
+        {
+          "name": "crop_box",
+          "type": "BOX",
+          "links": []
+        },
+        {
+          "name": "box_preview",
+          "type": "IMAGE",
+          "links": [
+            895
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "1.0.90",
+        "Node name for S&R": "LayerUtility: CropByMask V2"
+      },
+      "widgets_values": [
+        false,
+        "mask_area",
+        20,
+        20,
+        20,
+        20,
+        "8"
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 400,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        90.06574088380452,
+        3647.86845555805
+      ],
+      "size": [
+        270,
+        46
+      ],
+      "flags": {},
+      "order": 86,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 638
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 951
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            970,
+            971,
+            972,
+            1001
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.65",
+        "Node name for S&R": "ImageUpscaleWithModel"
+      },
+      "widgets_values": [],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 596,
+      "type": "LoadImage",
+      "pos": [
+        -236.6812549463144,
+        3238.029387752438
+      ],
+      "size": [
+        274.080078125,
+        314.0000305175781
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "title": "Character Dummy (Optional)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.50",
+        "Node name for S&R": "LoadImage",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "image": true,
+            "upload": true
+          }
+        }
+      },
+      "widgets_values": [
+        "pasted/image (7).png",
+        "image"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 397,
+      "type": "LayerUtility: ImageBlendAdvance",
+      "pos": [
+        412.7326585889235,
+        3238.029387752438
+      ],
+      "size": [
+        296.0197655847926,
+        338
+      ],
+      "flags": {},
+      "order": 92,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "background_image",
+          "type": "IMAGE",
+          "link": 632
+        },
+        {
+          "name": "layer_image",
+          "type": "IMAGE",
+          "link": 1002
+        },
+        {
+          "name": "layer_mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": 1003
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            628,
+            642,
+            720
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            643,
+            680
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "1.0.90",
+        "Node name for S&R": "LayerUtility: ImageBlendAdvance"
+      },
+      "widgets_values": [
+        false,
+        "normal",
+        100,
+        48,
+        75,
+        "None",
+        0.5,
+        1,
+        0,
+        "lanczos",
+        0
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 520,
+      "type": "VAEDecode",
+      "pos": [
+        1079.8816363361577,
+        4536.715518867699
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 862
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 882
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            1017
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.48",
+        "Node name for S&R": "VAEDecode",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 612,
+      "type": "easy imageRemBg",
+      "pos": [
+        1079.8816363361577,
+        4320.715518867699
+      ],
+      "size": [
+        210,
+        150
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 1017
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            1018
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            1019
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "125b3a4905ac9367f7aae5c2df67e2282f0a3d37",
+        "Node name for S&R": "easy imageRemBg"
+      },
+      "widgets_values": [
+        "Inspyrenet",
+        "Hide",
+        "ComfyUI",
+        false,
+        "none",
+        false
+      ]
+    },
+    {
+      "id": 608,
+      "type": "easy imageRemBg",
+      "pos": [
+        90.06574088380452,
+        3332.029387752438
+      ],
+      "size": [
+        270,
+        150
+      ],
+      "flags": {},
+      "order": 90,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 1001
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            1002,
+            1004
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            1003,
+            1005
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "125b3a4905ac9367f7aae5c2df67e2282f0a3d37",
+        "Node name for S&R": "easy imageRemBg"
+      },
+      "widgets_values": [
+        "Inspyrenet",
+        "Hide",
+        "ComfyUI",
+        false,
+        "white",
+        false
+      ]
+    },
+    {
+      "id": 469,
+      "type": "LayerUtility: LayerMaskTransform",
+      "pos": [
+        3146.6296637567084,
+        2096.2648089056793
+      ],
+      "size": [
+        276.39282852901886,
+        226
+      ],
+      "flags": {},
+      "order": 118,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 769
+        },
+        {
+          "name": "x",
+          "type": "INT",
+          "widget": {
+            "name": "x"
+          },
+          "link": 797
+        },
+        {
+          "name": "y",
+          "type": "INT",
+          "widget": {
+            "name": "y"
+          },
+          "link": 798
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT",
+          "widget": {
+            "name": "scale"
+          },
+          "link": 779
+        },
+        {
+          "name": "aspect_ratio",
+          "type": "FLOAT",
+          "widget": {
+            "name": "aspect_ratio"
+          },
+          "link": 803
+        }
+      ],
+      "outputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            770,
+            771
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "1.0.90",
+        "Node name for S&R": "LayerUtility: LayerMaskTransform"
+      },
+      "widgets_values": [
+        0,
+        0,
+        "None",
+        1,
+        1.1,
+        0,
+        "lanczos",
+        2
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 484,
+      "type": "MarkdownNote",
+      "pos": [
+        -590,
+        2314.329235914825
+      ],
+      "size": [
+        307.2193501423537,
+        110.87349982770684
       ],
       "flags": {},
       "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [],
-      "title": "Character sheet",
+      "title": "Crop Edge Reserve Percentage",
       "properties": {},
       "widgets_values": [
-        "The character sheet can be generated using my Lazy Character Sheet workflow.\n\nThe character should be facing front, left, back and right, in that order.\n\nThe charaBG lora can run if its just the front image, or just the front torso image. In some cases, these types of images work better. Test and see what works best."
+        "Crop Edge Reserve Percentage:\nThe amount to extend the character's crop by mask. The default is 15%.\n\nIf your character takes up a smaller amount of the cropped image or if you're getting weird residual characters, you need to reduce this value. The character body and head must take up a significant portion of the cropped image."
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -7239,14 +7249,6 @@
       "LATENT"
     ],
     [
-      860,
-      527,
-      0,
-      519,
-      0,
-      "IMAGE"
-    ],
-    [
       862,
       511,
       0,
@@ -7631,14 +7633,6 @@
       "INT,FLOAT,IMAGE,LATENT"
     ],
     [
-      958,
-      527,
-      0,
-      504,
-      0,
-      "IMAGE"
-    ],
-    [
       960,
       584,
       0,
@@ -7735,70 +7729,6 @@
       "IMAGE"
     ],
     [
-      973,
-      400,
-      0,
-      599,
-      0,
-      "IMAGE"
-    ],
-    [
-      974,
-      599,
-      0,
-      397,
-      1,
-      "IMAGE"
-    ],
-    [
-      975,
-      599,
-      1,
-      397,
-      2,
-      "MASK"
-    ],
-    [
-      976,
-      599,
-      0,
-      395,
-      0,
-      "IMAGE"
-    ],
-    [
-      977,
-      599,
-      1,
-      395,
-      1,
-      "MASK"
-    ],
-    [
-      978,
-      600,
-      0,
-      538,
-      0,
-      "IMAGE"
-    ],
-    [
-      979,
-      600,
-      1,
-      538,
-      1,
-      "MASK"
-    ],
-    [
-      980,
-      520,
-      0,
-      600,
-      0,
-      "IMAGE"
-    ],
-    [
       989,
       538,
       0,
@@ -7853,6 +7783,86 @@
       604,
       0,
       "IMAGE"
+    ],
+    [
+      999,
+      525,
+      0,
+      519,
+      0,
+      "IMAGE"
+    ],
+    [
+      1000,
+      525,
+      0,
+      504,
+      0,
+      "IMAGE"
+    ],
+    [
+      1001,
+      400,
+      0,
+      608,
+      0,
+      "IMAGE"
+    ],
+    [
+      1002,
+      608,
+      0,
+      397,
+      1,
+      "IMAGE"
+    ],
+    [
+      1003,
+      608,
+      1,
+      397,
+      2,
+      "MASK"
+    ],
+    [
+      1004,
+      608,
+      0,
+      395,
+      0,
+      "IMAGE"
+    ],
+    [
+      1005,
+      608,
+      1,
+      395,
+      1,
+      "MASK"
+    ],
+    [
+      1017,
+      520,
+      0,
+      612,
+      0,
+      "IMAGE"
+    ],
+    [
+      1018,
+      612,
+      0,
+      538,
+      0,
+      "IMAGE"
+    ],
+    [
+      1019,
+      612,
+      1,
+      538,
+      1,
+      "MASK"
     ]
   ],
   "groups": [
@@ -9162,10 +9172,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1.1167815779425023,
+      "scale": 1.919684843891603,
       "offset": [
-        1112.3727588426182,
-        -2759.0177077687135
+        772.4994961401471,
+        -2278.470723759645
       ]
     },
     "frontendVersion": "1.28.8",
