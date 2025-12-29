@@ -1,8 +1,8 @@
 {
   "id": "ed3d8eca-1932-4ec0-9bbd-9f3e7df74969",
   "revision": 0,
-  "last_node_id": 440,
-  "last_link_id": 727,
+  "last_node_id": 441,
+  "last_link_id": 728,
   "nodes": [
     {
       "id": 88,
@@ -16,7 +16,7 @@
         46
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -80,116 +80,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 37,
-      "type": "UNETLoader",
-      "pos": [
-        -250,
-        -100
-      ],
-      "size": [
-        330,
-        90
-      ],
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "slot_index": 0,
-          "links": [
-            184
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.48",
-        "Node name for S&R": "UNETLoader",
-        "models": [
-          {
-            "name": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-            "directory": "diffusion_models"
-          }
-        ],
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "qwen edit\\qwen_image_edit_2509_fp8_e4m3fn.safetensors",
-        "fp8_e4m3fn"
-      ]
-    },
-    {
-      "id": 89,
-      "type": "LoraLoaderModelOnly",
-      "pos": [
-        -240,
-        40
-      ],
-      "size": [
-        310,
-        82
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 184
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            615
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.50",
-        "Node name for S&R": "LoraLoaderModelOnly",
-        "models": [
-          {
-            "name": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
-            "url": "https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
-            "directory": "loras"
-          }
-        ],
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "lora_name": true,
-            "strength_model": true
-          }
-        }
-      },
-      "widgets_values": [
-        "qwen\\Qwen-Image-Lightning-4steps-V2.0-bf16.safetensors",
-        1
-      ]
-    },
-    {
       "id": 93,
       "type": "ImageScaleToTotalPixels",
       "pos": [
@@ -198,10 +88,10 @@
       ],
       "size": [
         270,
-        82
+        106
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -241,7 +131,8 @@
       },
       "widgets_values": [
         "lanczos",
-        2
+        2,
+        1
       ]
     },
     {
@@ -256,7 +147,7 @@
         200
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -434,7 +325,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        28006284541124,
+        348860222396567,
         "randomize",
         4,
         1,
@@ -633,7 +524,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        225843829543526,
+        78038669918892,
         "randomize",
         4,
         1,
@@ -702,7 +593,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        803669383439015,
+        1063764035738084,
         "randomize",
         4,
         1,
@@ -918,7 +809,7 @@
         88
       ],
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -942,7 +833,7 @@
         160
       ],
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1020,7 +911,7 @@
         60
       ],
       "flags": {},
-      "order": 13,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -1067,7 +958,7 @@
         60
       ],
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1179,7 +1070,7 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        270727454614111,
+        121098614034243,
         "randomize",
         4,
         1,
@@ -1200,7 +1091,7 @@
         110
       ],
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1258,7 +1149,7 @@
         200
       ],
       "flags": {},
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -1339,9 +1230,10 @@
       ],
       "outputs": [],
       "properties": {
-        "cnr_id": "kaytool",
+        "aux_id": "kk8bit/KayTool",
         "ver": "f4c80b009194d51a13a94f06d37847110a174c52",
-        "Node name for S&R": "Preview_Mask_Plus"
+        "Node name for S&R": "Preview_Mask_Plus",
+        "cnr_id": "kaytool"
       },
       "widgets_values": [
         false,
@@ -1399,7 +1291,8 @@
         0.01,
         0.98,
         true
-      ]
+      ],
+      "color": "rgba(27, 80, 119, 0.7)"
     },
     {
       "id": 407,
@@ -1452,7 +1345,8 @@
         0.01,
         0.98,
         true
-      ]
+      ],
+      "color": "rgba(27, 80, 119, 0.7)"
     },
     {
       "id": 423,
@@ -1511,9 +1405,10 @@
       ],
       "outputs": [],
       "properties": {
-        "cnr_id": "kaytool",
+        "aux_id": "kk8bit/KayTool",
         "ver": "f4c80b009194d51a13a94f06d37847110a174c52",
-        "Node name for S&R": "Preview_Mask_Plus"
+        "Node name for S&R": "Preview_Mask_Plus",
+        "cnr_id": "kaytool"
       },
       "widgets_values": [
         false,
@@ -1571,7 +1466,8 @@
         0.01,
         0.98,
         true
-      ]
+      ],
+      "color": "rgba(27, 80, 119, 0.7)"
     },
     {
       "id": 411,
@@ -1675,7 +1571,8 @@
         20,
         20,
         "8"
-      ]
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
     },
     {
       "id": 416,
@@ -1728,7 +1625,8 @@
         0.01,
         0.98,
         true
-      ]
+      ],
+      "color": "rgba(27, 80, 119, 0.7)"
     },
     {
       "id": 415,
@@ -1832,7 +1730,8 @@
         20,
         20,
         "8"
-      ]
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
     },
     {
       "id": 422,
@@ -1862,9 +1761,10 @@
       ],
       "outputs": [],
       "properties": {
-        "cnr_id": "kaytool",
+        "aux_id": "kk8bit/KayTool",
         "ver": "f4c80b009194d51a13a94f06d37847110a174c52",
-        "Node name for S&R": "Preview_Mask_Plus"
+        "Node name for S&R": "Preview_Mask_Plus",
+        "cnr_id": "kaytool"
       },
       "widgets_values": [
         false,
@@ -2321,9 +2221,10 @@
       ],
       "outputs": [],
       "properties": {
-        "cnr_id": "kaytool",
+        "aux_id": "kk8bit/KayTool",
         "ver": "f4c80b009194d51a13a94f06d37847110a174c52",
-        "Node name for S&R": "Preview_Mask_Plus"
+        "Node name for S&R": "Preview_Mask_Plus",
+        "cnr_id": "kaytool"
       },
       "widgets_values": [
         false,
@@ -2507,7 +2408,7 @@
         58
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2558,7 +2459,7 @@
         58
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2816,7 +2717,8 @@
         20,
         20,
         "8"
-      ]
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
     },
     {
       "id": 421,
@@ -2962,7 +2864,8 @@
         20,
         20,
         "8"
-      ]
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
     },
     {
       "id": 431,
@@ -3067,7 +2970,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -3104,7 +3007,7 @@
         }
       },
       "widgets_values": [
-        "4era7_waiv15.png",
+        "not_enough_milk_waiv15 (1).png",
         "image"
       ]
     },
@@ -3120,7 +3023,7 @@
         550
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3146,7 +3049,7 @@
         435.97856966597124
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3157,6 +3060,99 @@
       ],
       "color": "#432",
       "bgcolor": "#653"
+    },
+    {
+      "id": 441,
+      "type": "LoaderGGUF",
+      "pos": [
+        -240,
+        -77.06133916188736
+      ],
+      "size": [
+        307.91863607801577,
+        58
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            728
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "gguf",
+        "ver": "a64ccbf6c694a46c181a444a1ac9d2d810607309",
+        "Node name for S&R": "LoaderGGUF"
+      },
+      "widgets_values": [
+        "qwen edit\\qwen-image-edit-2511-Q6_K.gguf"
+      ]
+    },
+    {
+      "id": 89,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        -240,
+        40
+      ],
+      "size": [
+        310,
+        82
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 728
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            615
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.50",
+        "Node name for S&R": "LoraLoaderModelOnly",
+        "models": [
+          {
+            "name": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+            "url": "https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+            "directory": "loras"
+          }
+        ],
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "lora_name": true,
+            "strength_model": true
+          }
+        }
+      },
+      "widgets_values": [
+        "qwen\\Qwen-Image-Lightning-4steps-V2.0-bf16.safetensors",
+        1
+      ]
     }
   ],
   "links": [
@@ -3199,14 +3195,6 @@
       88,
       0,
       "IMAGE"
-    ],
-    [
-      184,
-      37,
-      0,
-      89,
-      0,
-      "MODEL"
     ],
     [
       186,
@@ -4087,6 +4075,14 @@
       438,
       0,
       "IMAGE"
+    ],
+    [
+      728,
+      441,
+      0,
+      89,
+      0,
+      "MODEL"
     ]
   ],
   "groups": [
@@ -4237,13 +4233,14 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.24304420967398527,
+      "scale": 0.8390545288824277,
       "offset": [
-        955.3132095030314,
-        630.9822441459087
+        972.1942227847048,
+        237.72073693859187
       ]
     },
-    "frontendVersion": "1.28.7",
+    "frontendVersion": "1.35.9",
+    "workflowRendererVersion": "LG",
     "ue_links": [],
     "links_added_by_ue": [],
     "VHS_latentpreview": false,
