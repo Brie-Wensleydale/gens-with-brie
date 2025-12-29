@@ -970,82 +970,6 @@
       ]
     },
     {
-      "id": 104,
-      "type": "SaveImage",
-      "pos": [
-        837.1533532520255,
-        1158.4193885381542
-      ],
-      "size": [
-        985.2994791666667,
-        1060.3776041666667
-      ],
-      "flags": {},
-      "order": 50,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 241
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "SaveImage",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "QwenToriRepose"
-      ]
-    },
-    {
-      "id": 105,
-      "type": "SaveImage",
-      "pos": [
-        1865.7563357310205,
-        1163.7923122607028
-      ],
-      "size": [
-        985.2994791666667,
-        1060.3776041666667
-      ],
-      "flags": {},
-      "order": 53,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 249
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "SaveImage",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "QwenToriReposeInfo"
-      ]
-    },
-    {
       "id": 90,
       "type": "VAEDecode",
       "pos": [
@@ -1156,7 +1080,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        761708815290450,
+        396273995606309,
         "randomize",
         4,
         1,
@@ -1279,7 +1203,7 @@
       ],
       "size": [
         140,
-        66
+        124
       ],
       "flags": {},
       "order": 35,
@@ -1890,47 +1814,6 @@
       ]
     },
     {
-      "id": 109,
-      "type": "ImageScaleToTotalPixels",
-      "pos": [
-        2044.7902970949579,
-        980.5577195241768
-      ],
-      "size": [
-        270,
-        106
-      ],
-      "flags": {},
-      "order": 52,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 248
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            249
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.6.0",
-        "Node name for S&R": "ImageScaleToTotalPixels"
-      },
-      "widgets_values": [
-        "nearest-exact",
-        2,
-        1
-      ]
-    },
-    {
       "id": 106,
       "type": "ImageConcanate",
       "pos": [
@@ -2336,56 +2219,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 41,
-      "type": "LoadImage",
-      "pos": [
-        -640,
-        360
-      ],
-      "size": [
-        274.07552083333337,
-        314
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            203,
-            242
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "title": "Character Pose",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.5.1",
-        "Node name for S&R": "LoadImage",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65
-      },
-      "widgets_values": [
-        "pasted/image (75).png",
-        "image"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 102,
       "type": "LoadImage",
       "pos": [
@@ -2397,7 +2230,7 @@
         314
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2430,7 +2263,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        "QwenEditCharSheet_00011_.png",
+        "QwenEditCharSheet_00045_.png",
         "image"
       ],
       "color": "#322",
@@ -2448,7 +2281,7 @@
         314.0000305175781
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2472,7 +2305,7 @@
         310.6346244728105
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2496,7 +2329,7 @@
         130.54028940277703
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2507,6 +2340,56 @@
       ],
       "color": "#432",
       "bgcolor": "#653"
+    },
+    {
+      "id": 41,
+      "type": "LoadImage",
+      "pos": [
+        -640,
+        360
+      ],
+      "size": [
+        274.07552083333337,
+        314
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            203,
+            242
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "title": "Character Pose",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "LoadImage",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "pasted/image (77).png",
+        "image"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
     },
     {
       "id": 65,
@@ -2566,13 +2449,130 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        116399023768216,
-        "randomize",
+        558088234447402,
+        "fixed",
         4,
         1,
         "euler",
         "simple",
         1
+      ]
+    },
+    {
+      "id": 109,
+      "type": "ImageScaleToTotalPixels",
+      "pos": [
+        2044.7902970949579,
+        980.5577195241768
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 248
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            249
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.6.0",
+        "Node name for S&R": "ImageScaleToTotalPixels"
+      },
+      "widgets_values": [
+        "lanczos",
+        2,
+        1
+      ]
+    },
+    {
+      "id": 104,
+      "type": "SaveImage",
+      "pos": [
+        837.1533532520255,
+        1158.4193885381542
+      ],
+      "size": [
+        985.2994791666667,
+        1060.3776041666667
+      ],
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 241
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "SaveImage",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "QwenLazyRepose"
+      ]
+    },
+    {
+      "id": 105,
+      "type": "SaveImage",
+      "pos": [
+        1865.7563357310205,
+        1163.7923122607028
+      ],
+      "size": [
+        985.2994791666667,
+        1060.3776041666667
+      ],
+      "flags": {},
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 249
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1",
+        "Node name for S&R": "SaveImage",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65
+      },
+      "widgets_values": [
+        "QwenLazyReposeInfo"
       ]
     }
   ],
@@ -3294,10 +3294,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.2940834937055264,
+      "scale": 0.8390545288824066,
       "offset": [
-        2090.774075293941,
-        687.0367042698741
+        -1434.3019280656895,
+        -839.8364081883595
       ]
     },
     "frontendVersion": "1.35.9",
