@@ -19,7 +19,7 @@
         "collapsed": false
       },
       "order": 0,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -63,7 +63,7 @@
         "collapsed": false
       },
       "order": 1,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -112,7 +112,7 @@
         "collapsed": true
       },
       "order": 119,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "string",
@@ -168,7 +168,7 @@
         "collapsed": true
       },
       "order": 130,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -229,7 +229,7 @@
         "collapsed": true
       },
       "order": 100,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -821,7 +821,7 @@
         70
       ],
       "flags": {},
-      "order": 87,
+      "order": 86,
       "mode": 0,
       "inputs": [
         {
@@ -1215,7 +1215,7 @@
         26
       ],
       "flags": {},
-      "order": 88,
+      "order": 87,
       "mode": 0,
       "inputs": [
         {
@@ -2063,7 +2063,7 @@
       ],
       "flags": {},
       "order": 123,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -2114,7 +2114,7 @@
       ],
       "flags": {},
       "order": 143,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "pixels",
@@ -2168,7 +2168,7 @@
       ],
       "flags": {},
       "order": 144,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -2244,7 +2244,7 @@
       ],
       "flags": {},
       "order": 132,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -2295,7 +2295,7 @@
       ],
       "flags": {},
       "order": 145,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -2415,7 +2415,7 @@
       ],
       "flags": {},
       "order": 194,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -2452,7 +2452,7 @@
       ],
       "flags": {},
       "order": 206,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -2529,7 +2529,7 @@
       ],
       "flags": {},
       "order": 201,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "a",
@@ -2592,7 +2592,7 @@
       ],
       "flags": {},
       "order": 189,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -2639,7 +2639,7 @@
       ],
       "flags": {},
       "order": 16,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -2678,7 +2678,7 @@
       ],
       "flags": {},
       "order": 195,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -2929,7 +2929,7 @@
       ],
       "flags": {},
       "order": 110,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -2971,7 +2971,7 @@
       ],
       "flags": {},
       "order": 121,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -3009,7 +3009,7 @@
       ],
       "flags": {},
       "order": 122,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -3087,7 +3087,7 @@
         26
       ],
       "flags": {},
-      "order": 86,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -3128,7 +3128,7 @@
       ],
       "flags": {},
       "order": 172,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -3216,7 +3216,7 @@
       ],
       "flags": {},
       "order": 184,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -3252,7 +3252,7 @@
         "collapsed": false
       },
       "order": 177,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "samples",
@@ -3310,7 +3310,7 @@
       ],
       "flags": {},
       "order": 207,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -3347,7 +3347,7 @@
       ],
       "flags": {},
       "order": 204,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -3443,7 +3443,7 @@
       ],
       "flags": {},
       "order": 200,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "a",
@@ -3506,7 +3506,7 @@
       ],
       "flags": {},
       "order": 159,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -3596,7 +3596,7 @@
         "collapsed": true
       },
       "order": 176,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -3749,7 +3749,7 @@
         1024,
         true,
         1024,
-        508833858470011,
+        233739703118582,
         "randomize",
         20,
         5,
@@ -3793,7 +3793,7 @@
       ],
       "flags": {},
       "order": 182,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -4100,7 +4100,7 @@
         1024,
         true,
         1024,
-        656211760387001,
+        209801054191268,
         "randomize",
         20,
         5,
@@ -4181,7 +4181,7 @@
       ],
       "flags": {},
       "order": 18,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -4236,7 +4236,7 @@
       ],
       "flags": {},
       "order": 183,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "sam3_model",
@@ -4316,7 +4316,7 @@
       ],
       "flags": {},
       "order": 148,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -4352,7 +4352,7 @@
         "collapsed": false
       },
       "order": 186,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "samples",
@@ -4407,7 +4407,7 @@
       ],
       "flags": {},
       "order": 191,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -4507,7 +4507,7 @@
       ],
       "flags": {},
       "order": 196,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -4541,7 +4541,7 @@
       ],
       "flags": {},
       "order": 92,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "a",
@@ -4602,7 +4602,7 @@
       ],
       "flags": {},
       "order": 19,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "Rotation Quadrants",
@@ -4666,7 +4666,7 @@
       ],
       "flags": {},
       "order": 167,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "label": "pipe",
@@ -4757,7 +4757,7 @@
         "collapsed": false
       },
       "order": 153,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "samples",
@@ -4805,7 +4805,7 @@
       ],
       "flags": {},
       "order": 20,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "properties": {
@@ -4834,7 +4834,7 @@
       ],
       "flags": {},
       "order": 155,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "conditioning",
@@ -4887,7 +4887,7 @@
       ],
       "flags": {},
       "order": 154,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "conditioning",
@@ -4940,7 +4940,7 @@
       ],
       "flags": {},
       "order": 21,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "KSampler settings",
@@ -4970,7 +4970,7 @@
       ],
       "flags": {},
       "order": 168,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -5161,7 +5161,7 @@
         512,
         true,
         1024,
-        349372209392232,
+        565779478006027,
         "randomize",
         20,
         8,
@@ -5204,7 +5204,7 @@
         "collapsed": true
       },
       "order": 22,
-      "mode": 4,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "🔖",
@@ -5324,36 +5324,6 @@
       ]
     },
     {
-      "id": 124,
-      "type": "MarkdownNote",
-      "pos": [
-        -2849.0447072288084,
-        -1918.4023326938911
-      ],
-      "size": [
-        310,
-        313.99739583333337
-      ],
-      "flags": {},
-      "order": 26,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "HOLD THE CHEESE!",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.6.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "How do I get started?\n\nHere's how!\n\nDownload all the models, put them in the right folders, hit ctrl+R to refresh, then load them into each model loader (magenta nodes).\n\nThe ONLY IMAGE, you need to load is the BG image over in Compositing.\n\nYou DO NEED to update the cache file path and maybe place the cache image files into the cache folder. These will be overwritten as you run the workflow.\n\nOnce you're done with that. Start putting in the SDXL prompts in the prompt group. Once your pose, character and mixed prompt tags are ready. You can start pushing through the workflow. Go read 'Workflow Usage' for specifics."
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 517,
       "type": "MarkdownNote",
       "pos": [
@@ -5365,7 +5335,7 @@
         160.17383639108937
       ],
       "flags": {},
-      "order": 27,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5397,7 +5367,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 28,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5444,7 +5414,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5592,7 +5562,7 @@
       ],
       "flags": {},
       "order": 188,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -5643,7 +5613,7 @@
         "collapsed": false
       },
       "order": 77,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "width",
@@ -5703,7 +5673,7 @@
       ],
       "flags": {},
       "order": 141,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -5778,7 +5748,7 @@
         }
       },
       "widgets_values": [
-        85903828424747,
+        957649053463683,
         "randomize",
         20,
         8,
@@ -5802,7 +5772,7 @@
         "collapsed": false
       },
       "order": 83,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "string",
@@ -5904,7 +5874,7 @@
         58
       ],
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5946,7 +5916,7 @@
         58
       ],
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5987,7 +5957,7 @@
         130
       ],
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -6120,7 +6090,7 @@
         }
       },
       "widgets_values": [
-        994701017573320,
+        125099613438755,
         "randomize",
         20,
         8,
@@ -6460,7 +6430,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 33,
+      "order": 32,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -6490,7 +6460,7 @@
       ],
       "flags": {},
       "order": 109,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -6534,7 +6504,7 @@
       ],
       "flags": {},
       "order": 174,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "conditioning",
@@ -6587,7 +6557,7 @@
       ],
       "flags": {},
       "order": 173,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "conditioning",
@@ -6640,7 +6610,7 @@
       ],
       "flags": {},
       "order": 135,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -6695,7 +6665,7 @@
       ],
       "flags": {},
       "order": 161,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "pixels",
@@ -6749,7 +6719,7 @@
       ],
       "flags": {},
       "order": 163,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -6823,8 +6793,8 @@
         58
       ],
       "flags": {},
-      "order": 34,
-      "mode": 4,
+      "order": 33,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -6864,7 +6834,7 @@
       ],
       "flags": {},
       "order": 75,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "a",
@@ -6926,7 +6896,7 @@
       ],
       "flags": {},
       "order": 138,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -6980,7 +6950,7 @@
         200
       ],
       "flags": {},
-      "order": 35,
+      "order": 34,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7112,7 +7082,7 @@
         234.7454996419707
       ],
       "flags": {},
-      "order": 36,
+      "order": 35,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -7142,7 +7112,7 @@
         200
       ],
       "flags": {},
-      "order": 37,
+      "order": 36,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7183,7 +7153,7 @@
         200
       ],
       "flags": {},
-      "order": 38,
+      "order": 37,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7213,66 +7183,6 @@
       ]
     },
     {
-      "id": 512,
-      "type": "MarkdownNote",
-      "pos": [
-        -3102.5182702272177,
-        -1217.1568130561657
-      ],
-      "size": [
-        270.570568214634,
-        310.7287757228763
-      ],
-      "flags": {},
-      "order": 39,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Seed Control",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.6.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "With seed fixed, keep tweaking the prompt till you arrive in the ballpark where you want in the SDXL Pose and Character.\n\nThen, keep randomizing the seed till you get a result that you like for both of those, then fix the seed.\n\nFor the rest, you push from the left of the workflow to the right. Bypass the groups that you are satisfied with the results. Rinse and repeat till you reach the end so you get the character posed in the way you want, composited into the scene in the way you want.\n\nMany Groups will be able to zero-shot correct outputs. Playing seed gatcha is likely when the step is more complex.\n\nI've found, gatcha is frequently needed for the SDXL Pose, Qwen RePose, and Qwen Final phases."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 514,
-      "type": "MarkdownNote",
-      "pos": [
-        -3744.979257755483,
-        -786.6710570045713
-      ],
-      "size": [
-        269.78904074424645,
-        323.9903265508807
-      ],
-      "flags": {},
-      "order": 40,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Prompts",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.6.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "This is for the prompts BUT ALSO loras for SDXL. Because some loras have trigger words and options, I decided to roll the SDXL loras in here.\n\nLoras need to be in this file path format:\n<lora:sdxl\\slippy_magoo\\Hot_Babe_Bazongas:1>\n\nOtherwise, these loras are pretty self-explanatory, they are just split up.\n\nGreen prompts change the SDXL Character gen.\n\nBlue prompts change the SDXL Pose gen.\n\nGrey prompts change both.\n\nIf you don't want to change the character (consistent characters is the whole point of this workflow), then only alter the blue prompts.\n\nThe two deactivated prompts are for extra loras, one for character details, like clothing and accessories, and the other for the pose, which also includes expressions and hand gestures. SDXL Concept loras aplenty, go wild."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 746,
       "type": "MarkdownNote",
       "pos": [
@@ -7284,8 +7194,8 @@
         135.52844202864304
       ],
       "flags": {},
-      "order": 41,
-      "mode": 4,
+      "order": 38,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "Edge Buffer Notes",
@@ -7314,7 +7224,7 @@
         200
       ],
       "flags": {},
-      "order": 42,
+      "order": 39,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7355,8 +7265,8 @@
         82
       ],
       "flags": {},
-      "order": 43,
-      "mode": 4,
+      "order": 40,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -7398,7 +7308,7 @@
         200
       ],
       "flags": {},
-      "order": 44,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7441,7 +7351,7 @@
       ],
       "flags": {},
       "order": 198,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -7477,7 +7387,7 @@
         386.2760416666667
       ],
       "flags": {},
-      "order": 45,
+      "order": 42,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7543,8 +7453,8 @@
         130
       ],
       "flags": {},
-      "order": 46,
-      "mode": 4,
+      "order": 43,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -7590,8 +7500,8 @@
         92.42890249999994
       ],
       "flags": {},
-      "order": 47,
-      "mode": 4,
+      "order": 44,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "When to Rotate?",
@@ -7620,8 +7530,8 @@
         114.96834652704723
       ],
       "flags": {},
-      "order": 48,
-      "mode": 4,
+      "order": 45,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "Megapizels can be ajusted",
@@ -7650,8 +7560,8 @@
         130
       ],
       "flags": {},
-      "order": 49,
-      "mode": 4,
+      "order": 46,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -7699,7 +7609,7 @@
         200
       ],
       "flags": {},
-      "order": 50,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -7788,8 +7698,8 @@
       "flags": {
         "collapsed": true
       },
-      "order": 51,
-      "mode": 4,
+      "order": 48,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "🔖",
@@ -7818,7 +7728,7 @@
       ],
       "flags": {},
       "order": 202,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -7895,7 +7805,7 @@
       ],
       "flags": {},
       "order": 180,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -7953,7 +7863,7 @@
         }
       },
       "widgets_values": [
-        509185229142665,
+        1009964598907781,
         "randomize",
         4,
         1,
@@ -7975,7 +7885,7 @@
       ],
       "flags": {},
       "order": 197,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -8100,7 +8010,7 @@
       ],
       "flags": {},
       "order": 149,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -8155,7 +8065,7 @@
       ],
       "flags": {},
       "order": 97,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -8185,36 +8095,6 @@
       }
     },
     {
-      "id": 766,
-      "type": "MarkdownNote",
-      "pos": [
-        -3403.831153996685,
-        -1217.1568130561657
-      ],
-      "size": [
-        274.91377306709273,
-        309.8087887966749
-      ],
-      "flags": {},
-      "order": 52,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Workflow Usage",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.6.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "Once the models and files are downloaded, the cache filepath are updated, and the prompts are ready, you're ready to run things.\n\nIMPORTANT - TURN OFF groups you're not focused on! You should work on one group at a time!\n\nObviously, you can run the whole workflow or multiple groups, but if there's an F-up in the middle, you need to begin again.\n\nThis is the order you should push:\nCharacter:\nSDXL Character & Qwen Character Sheet\nOnce the character is done, it usually stays the same for many runs.\nPose:\nSDXL Pose\nQwen Pose\nQwen RePose\nSDXL Refine\nComp and Fusion:\nCompositing\nQwen Fusion\n\nEach step has their quirks. If outputs are not zero shot, read the notes, there may be params to adjust."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 206,
       "type": "Reroute",
       "pos": [
@@ -8227,7 +8107,7 @@
       ],
       "flags": {},
       "order": 96,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -8386,36 +8266,6 @@
       "bgcolor": "#535"
     },
     {
-      "id": 82,
-      "type": "MarkdownNote",
-      "pos": [
-        -2505.1133062626423,
-        -1918.4023326938911
-      ],
-      "size": [
-        461.8690276784284,
-        639.3352674564159
-      ],
-      "flags": {},
-      "order": 53,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Qwen Model Links",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.6.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "## Model Links\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**loras**\n\n- [Qwen-Image-Lightning-4steps-V2.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/blob/main/Qwen-Image-Lightning-4steps-V2.0-bf16.safetensors)\n- [QIE_image2body_V2_dim4_1e-3-000078.safetensors](https://huggingface.co/tori29umai/QwenImageEdit2509_LoRA/blob/main/QIE_image2body_V2_dim4_1e-3-000078.safetensors)\n- [QIE_charaBG_V8_dim4_1e-3-000048.safetensors](https://huggingface.co/tori29umai/QwenImageEdit2509_LoRA/blob/main/QIE_charaBG_V8_dim4_1e-3-000048.safetensors)\n- [qe2511_consis_alpha_patched.safetensors](https://huggingface.co/lrzjason/Consistance_Edit_Lora/blob/main/qe2511_consis_alpha_patched.safetensors)\n- [Fusion.safetensors](https://huggingface.co/dx8152/Qwen-Image-Edit-2509-Fusion/blob/main/溶图.safetensors) (Just rename 溶图 to Fusion)\n- Additional SDXL/Pony/Illustrious/Noob loras of your choice\n\n**checkpoint**\n\n- [WAI-illustrious-SDXL V16](https://civitai.com/models/827184/wai-illustrious-sdxl) (Any SDXL/Pony/Illustrious/Noob model will do. Depends on what you want and what loras you want to use)\n- [v19/Qwen-Rapid-AIO-NSFW-v19.safetensors](https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/blob/main/v19/Qwen-Rapid-AIO-NSFW-v19.safetensors) (Any Qwen Rapid AIO NSFW model will do, I use v19. v23 is also recommended by the author.)\n\n\n**diffusion_model**\n\n- [qwen-image-edit-2511-Q8_0](https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF/blob/main/qwen-image-edit-2511-Q8_0.gguf) (Any Qwen Edit 2511 GGUF model will do, I use Q8_8. Q6_K is alright too.)\n\n**vae**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n- [sdxl_vae.safetensors] (https://huggingface.co/stabilityai/sdxl-vae/blob/main/sdxl_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n│   ├── 📂 loras/\n│   │      |── Qwen-Image-Lightning-4steps-V2.0-bf16.safetensors\n│   │      |── QIE_image2body_V2_dim4_1e-3-000078.safetensors\n│   │      |── QIE_charaBG_V8_dim4_1e-3-000048.safetensors\n│   │      |── Fusion.safetensors\n|   |      └── qe2511_consis_alpha_patched.safetensors\n│   ├── 📂 checkpoints/\n│   │      |── Qwen-Rapid-AIO-NSFW-v19.safetensors\n│   │      └── waiIllustriousSDXL_v160.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── qwen-image-edit-2511-Q8_0.gguf\n│   └── 📂 vae/\n│          |── qwen_image_vae.safetensors\n│          └── sdxl_vae.safetensors\n```\n"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 10,
       "type": "VAELoader",
       "pos": [
@@ -8427,7 +8277,7 @@
         68.88020833333334
       ],
       "flags": {},
-      "order": 54,
+      "order": 49,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8482,7 +8332,7 @@
         125
       ],
       "flags": {},
-      "order": 55,
+      "order": 50,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8599,7 +8449,7 @@
         68.88020833333334
       ],
       "flags": {},
-      "order": 56,
+      "order": 51,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8639,7 +8489,7 @@
         371.7593490550605
       ],
       "flags": {},
-      "order": 57,
+      "order": 52,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -8669,7 +8519,7 @@
         98
       ],
       "flags": {},
-      "order": 58,
+      "order": 53,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8718,7 +8568,7 @@
       ],
       "flags": {},
       "order": 107,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -8785,7 +8635,7 @@
         "fixed",
         "Select the LoRA to add to the text",
         "Select Wildcard 🟢 Full Cache",
-        931744198036083,
+        1087017040364160,
         "randomize"
       ],
       "color": "#232",
@@ -8869,7 +8719,7 @@
         200
       ],
       "flags": {},
-      "order": 59,
+      "order": 54,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -8911,7 +8761,7 @@
         311.59217509317796
       ],
       "flags": {},
-      "order": 60,
+      "order": 55,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -8943,8 +8793,8 @@
       "flags": {
         "collapsed": true
       },
-      "order": 61,
-      "mode": 4,
+      "order": 56,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "🔖",
@@ -8973,7 +8823,7 @@
       ],
       "flags": {},
       "order": 170,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -9017,54 +8867,6 @@
         "SDXL Character",
         "down"
       ]
-    },
-    {
-      "id": 792,
-      "type": "LoadImage",
-      "pos": [
-        -78.1986518302984,
-        -1423.2978733765121
-      ],
-      "size": [
-        272.1108212025374,
-        326
-      ],
-      "flags": {},
-      "order": 62,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1577
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": []
-        }
-      ],
-      "title": "Load Pose Image",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.16.4",
-        "Node name for S&R": "LoadImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.6.2"
-        },
-        "image": "clipspace/clipspace-painted-masked-1774537573742.png [input]"
-      },
-      "widgets_values": [
-        "qwen_repose_cache.png",
-        "image"
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
     },
     {
       "id": 592,
@@ -9111,54 +8913,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 802,
-      "type": "LoadImage",
-      "pos": [
-        228.6063349420783,
-        -1423.2978733765121
-      ],
-      "size": [
-        272.1108212025374,
-        326
-      ],
-      "flags": {},
-      "order": 63,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1679
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": []
-        }
-      ],
-      "title": "Load Pose Image",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.16.4",
-        "Node name for S&R": "LoadImage",
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {},
-          "version": "7.6.2"
-        },
-        "image": "clipspace/clipspace-painted-masked-1774537573742.png [input]"
-      },
-      "widgets_values": [
-        "qwen_sheet_cache.png",
-        "image"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 270,
       "type": "Checkpoint Loader with Name (Image Saver)",
       "pos": [
@@ -9172,7 +8926,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 64,
+      "order": 57,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9241,7 +8995,7 @@
         "collapsed": true
       },
       "order": 146,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "a",
@@ -9308,7 +9062,7 @@
         "collapsed": true
       },
       "order": 147,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "a",
@@ -9373,7 +9127,7 @@
         104.16666666666667
       ],
       "flags": {},
-      "order": 65,
+      "order": 58,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9415,7 +9169,7 @@
         104.16666666666667
       ],
       "flags": {},
-      "order": 66,
+      "order": 59,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9457,7 +9211,7 @@
         104.16666666666667
       ],
       "flags": {},
-      "order": 67,
+      "order": 60,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9499,7 +9253,7 @@
         104.16666666666667
       ],
       "flags": {},
-      "order": 68,
+      "order": 61,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -9541,7 +9295,7 @@
         159.06234287001917
       ],
       "flags": {},
-      "order": 69,
+      "order": 62,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -9572,7 +9326,7 @@
       ],
       "flags": {},
       "order": 157,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -9659,7 +9413,7 @@
         26
       ],
       "flags": {},
-      "order": 85,
+      "order": 88,
       "mode": 0,
       "inputs": [
         {
@@ -9706,7 +9460,7 @@
         "collapsed": true
       },
       "order": 160,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "a",
@@ -9765,7 +9519,7 @@
       ],
       "flags": {},
       "order": 185,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image_1",
@@ -9817,7 +9571,7 @@
       ],
       "flags": {},
       "order": 190,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -9854,7 +9608,7 @@
       ],
       "flags": {},
       "order": 179,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image_1",
@@ -9906,7 +9660,7 @@
       ],
       "flags": {},
       "order": 171,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -9964,7 +9718,7 @@
       ],
       "flags": {},
       "order": 158,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -10052,7 +9806,7 @@
       ],
       "flags": {},
       "order": 178,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image_1",
@@ -10104,7 +9858,7 @@
       ],
       "flags": {},
       "order": 169,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -10162,7 +9916,7 @@
       ],
       "flags": {},
       "order": 156,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -10250,7 +10004,7 @@
       ],
       "flags": {},
       "order": 136,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -10304,7 +10058,7 @@
         200
       ],
       "flags": {},
-      "order": 70,
+      "order": 63,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -10464,7 +10218,7 @@
       ],
       "flags": {},
       "order": 162,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -10540,7 +10294,7 @@
       ],
       "flags": {},
       "order": 133,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -10591,7 +10345,7 @@
       ],
       "flags": {},
       "order": 124,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -10642,7 +10396,7 @@
       ],
       "flags": {},
       "order": 193,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -10929,8 +10683,8 @@
         130
       ],
       "flags": {},
-      "order": 71,
-      "mode": 4,
+      "order": 64,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -11052,7 +10806,7 @@
         "fixed",
         "Select the LoRA to add to the text",
         "Select Wildcard 🟢 Full Cache",
-        425970963689772,
+        158051852768799,
         "randomize"
       ],
       "color": "#232",
@@ -11202,7 +10956,7 @@
         250
       ],
       "flags": {},
-      "order": 72,
+      "order": 65,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -11226,6 +10980,252 @@
           "version": "7.6.2"
         }
       }
+    },
+    {
+      "id": 82,
+      "type": "MarkdownNote",
+      "pos": [
+        -2505.1133062626423,
+        -1918.4023326938911
+      ],
+      "size": [
+        461.8690276784284,
+        639.3352674564159
+      ],
+      "flags": {},
+      "order": 66,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Qwen Model Links",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.6.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "## Model Links\n\n**text_encoders**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/HunyuanVideo_1.5_repackaged/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**loras**\n\n- [Qwen-Image-Lightning-4steps-V2.0-bf16.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/blob/main/Qwen-Image-Lightning-4steps-V2.0-bf16.safetensors)\n- [QIE_image2body_V2_dim4_1e-3-000078.safetensors](https://huggingface.co/tori29umai/QwenImageEdit2509_LoRA/blob/main/QIE_image2body_V2_dim4_1e-3-000078.safetensors)\n- [QIE_charaBG_V8_dim4_1e-3-000048.safetensors](https://huggingface.co/tori29umai/QwenImageEdit2509_LoRA/blob/main/QIE_charaBG_V8_dim4_1e-3-000048.safetensors)\n- Additional SDXL/Pony/Illustrious/Noob loras of your choice\n\n**checkpoint**\n\n- [WAI-illustrious-SDXL V16](https://civitai.com/models/827184/wai-illustrious-sdxl) (Any SDXL/Pony/Illustrious/Noob model will do. Depends on what you want and what loras you want to use)\n- [v19/Qwen-Rapid-AIO-NSFW-v19.safetensors](https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/blob/main/v19/Qwen-Rapid-AIO-NSFW-v19.safetensors) (Any Qwen Rapid AIO NSFW model will do, I use v19. v23 is also recommended by the author.)\n\n\n**diffusion_model**\n\n- [qwen-image-edit-2511-Q8_0](https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF/blob/main/qwen-image-edit-2511-Q8_0.gguf) (Any Qwen Edit 2511 GGUF model will do, I use Q8_8. Q6_K is alright too.)\n\n**vae**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n- [sdxl_vae.safetensors] (https://huggingface.co/stabilityai/sdxl-vae/blob/main/sdxl_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 text_encoders/\n│   │      └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n│   ├── 📂 loras/\n│   │      |── Qwen-Image-Lightning-4steps-V2.0-bf16.safetensors\n│   │      |── QIE_image2body_V2_dim4_1e-3-000078.safetensors\n|   |      └── QIE_charaBG_V8_dim4_1e-3-000048.safetensors\n│   ├── 📂 checkpoints/\n│   │      |── Qwen-Rapid-AIO-NSFW-v19.safetensors\n│   │      └── waiIllustriousSDXL_v160.safetensors\n│   ├── 📂 diffusion_models/\n│   │      └── qwen-image-edit-2511-Q8_0.gguf\n│   └── 📂 vae/\n│          |── qwen_image_vae.safetensors\n│          └── sdxl_vae.safetensors\n```\n"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 512,
+      "type": "MarkdownNote",
+      "pos": [
+        -3102.5182702272177,
+        -1217.1568130561657
+      ],
+      "size": [
+        270.570568214634,
+        310.7287757228763
+      ],
+      "flags": {},
+      "order": 67,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Seed Control",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.6.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "With seed fixed, keep tweaking the prompt till you arrive in the ballpark where you want in the SDXL Pose and Character.\n\nThen, keep randomizing the seed till you get a result that you like, then fix the seed.\n\nYou push from the left of the workflow to the right. Bypass the groups that you are satisfied with the results. Rinse and repeat till you reach the end so you get the character posed in the way you want.\n\nMany Groups will be able to zero-shot correct outputs. Playing seed gatcha is likely when the step is more complex.\n\nI've found, gatcha is frequently needed for the SDXL Pose and Qwen RePose."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 766,
+      "type": "MarkdownNote",
+      "pos": [
+        -3403.831153996685,
+        -1217.1568130561657
+      ],
+      "size": [
+        274.91377306709273,
+        309.8087887966749
+      ],
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Workflow Usage",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.6.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Once the models and files are downloaded, the cache filepath are updated, and the prompts are ready, you're ready to run things.\n\nIMPORTANT - TURN OFF groups you're not focused on! You should work on one group at a time!\n\nObviously, you can run the whole workflow or multiple groups, but there's a liklihood it will fetch the cache image from a previous run, so you need to run it again anyway.\n\nThis is the order you should push:\nSDXL Pose\nQwen Pose\nQwen RePose\nSDXL Refine\n\nEach step has their quirks. If outputs are not zero shot, read the notes, there may be params to adjust."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 514,
+      "type": "MarkdownNote",
+      "pos": [
+        -3744.979257755483,
+        -786.6710570045713
+      ],
+      "size": [
+        269.78904074424645,
+        323.9903265508807
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Prompts",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.6.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "This is for the prompts BUT ALSO loras for SDXL. Because some loras have trigger words and options, I decided to roll the SDXL loras in here.\n\nLoras need to be in this file path format:\n<lora:sdxl\\slippy_magoo\\Hot_Babe_Bazongas:1>\n\nOtherwise, these loras are pretty self-explanatory, they are just split up.\n\nGreen prompts change the SDXL Character gen. They will only appear in SDXL refine step.\n\nBlue prompts change the SDXL Pose gen.\n\nGrey prompts change both.\n\nIf you don't want to change the character (consistent characters is the whole point of this workflow), then only alter the blue prompts.\n\nThe two deactivated prompts are for extra loras, one for character details, like clothing and accessories, and the other for the pose, which also includes expressions and hand gestures. SDXL Concept loras aplenty, go wild."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 802,
+      "type": "LoadImage",
+      "pos": [
+        228.6063349420783,
+        -1423.2978733765121
+      ],
+      "size": [
+        272.1108212025374,
+        326
+      ],
+      "flags": {},
+      "order": 70,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1679
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "Load Character Sheet Image",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.16.4",
+        "Node name for S&R": "LoadImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        },
+        "image": "clipspace/clipspace-painted-masked-1774537573742.png [input]"
+      },
+      "widgets_values": [
+        "qwen_sheet_cache.png",
+        "image"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 792,
+      "type": "LoadImage",
+      "pos": [
+        -78.1986518302984,
+        -1423.2978733765121
+      ],
+      "size": [
+        272.1108212025374,
+        326
+      ],
+      "flags": {},
+      "order": 71,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1577
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "Load Pose Image (Optional)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.16.4",
+        "Node name for S&R": "LoadImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        },
+        "image": "clipspace/clipspace-painted-masked-1774537573742.png [input]"
+      },
+      "widgets_values": [
+        "qwen_repose_cache.png",
+        "image"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 124,
+      "type": "MarkdownNote",
+      "pos": [
+        -2849.0447072288084,
+        -1918.4023326938911
+      ],
+      "size": [
+        310,
+        313.99739583333337
+      ],
+      "flags": {},
+      "order": 72,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "HOLD THE CHEESE!",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.6.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "How do I get started?\n\nHere's how!\n\nDownload all the models, put them in the right folders, hit ctrl+R to refresh, then load them into each model loader (magenta nodes).\n\nThe ONLY IMAGE, you need to load is the character sheet in the RED image load node over to the right.\n\nYou DO NEED to update the cache file path and maybe place the cache image files into the cache folder. These will be overwritten as you run the workflow.\n\nOnce you're done with that. Start putting in the SDXL prompts in the prompt group. Once your pose, character and mixed prompt tags are ready. You can start pushing through the workflow. Go read 'Workflow Usage' for specifics."
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
     }
   ],
   "links": [
@@ -13708,7 +13708,7 @@
       "bounding": [
         -647.5891007749988,
         -1492.323514826512,
-        1160.9971825576695,
+        859.1790007394876,
         565.0002596854636
       ],
       "color": "#444",
@@ -13780,8 +13780,8 @@
     "ds": {
       "scale": 0.683013455365071,
       "offset": [
-        4170.3326853241015,
-        1063.6595155284474
+        3489.9427374759757,
+        2171.390902737075
       ]
     },
     "frontendVersion": "1.43.17",
